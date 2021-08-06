@@ -35,6 +35,7 @@ import org.gradle.initialization.layout.BuildLayout;
 import org.gradle.internal.InternalBuildAdapter;
 import org.gradle.internal.Pair;
 import org.gradle.internal.build.AbstractBuildState;
+import org.gradle.internal.build.BuildLayoutValidator;
 import org.gradle.internal.build.BuildLifecycleController;
 import org.gradle.internal.build.BuildLifecycleControllerFactory;
 import org.gradle.internal.build.BuildState;
@@ -96,13 +97,15 @@ public class RootOfNestedBuildTree extends AbstractBuildState implements NestedR
 
         session = new BuildSessionState(userHomeDirServiceRegistry, crossBuildSessionState, startParameter, buildRequestMetaData, ClassPath.EMPTY, buildCancellationToken, buildRequestMetaData.getClient(), new NoOpBuildEventConsumer());
 
+        session.getServices().get(BuildLayoutValidator.class).validate(startParameter);
+
         BuildTreeModelControllerServices.Supplier modelServices = session.getServices().get(BuildTreeModelControllerServices.class).servicesForNestedBuildTree(startParameter);
         buildTree = new BuildTreeState(session.getServices(), modelServices);
 
         // Create the controllers using the services of the nested tree
         BuildLifecycleControllerFactory buildLifecycleControllerFactory = buildTree.getServices().get(BuildLifecycleControllerFactory.class);
         buildServices = new BuildScopeServices(buildTree.getServices());
-        this.buildLifecycleController = buildLifecycleControllerFactory.newInstance(buildDefinition, this, owner.getMutableModel(), buildServices);
+        this.buildLifecycleController = buildLifecycleControllerFactory.newInstance(buildDefinition, this, owner, buildServices);
 
         BuildTreeLifecycleControllerFactory buildTreeLifecycleControllerFactory = buildServices.get(BuildTreeLifecycleControllerFactory.class);
         IncludedBuildTaskGraph controllers = buildServices.get(IncludedBuildTaskGraph.class);
