@@ -14,8 +14,15 @@
  * limitations under the License.
  */
 
-import gradlebuild.performance.generator.tasks.*
-import org.gradle.api.file.FileSystemOperations
+import gradlebuild.performance.generator.tasks.BuildBuilderGenerator
+import gradlebuild.performance.generator.tasks.CppMultiProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.JavaExecProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.JvmProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.KtsProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.MonolithicNativeProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.NativeProjectGeneratorTask
+import gradlebuild.performance.generator.tasks.NativeProjectWithDepsGeneratorTask
+import gradlebuild.performance.generator.tasks.RemoteProject
 
 import static gradlebuild.basics.BuildEnvironmentKt.repoRoot
 
@@ -33,8 +40,11 @@ performanceTest.registerTestProject("gradleBuildBaseline", RemoteProject) {
 }
 
 // === Java ===
-['largeMonolithicJavaProject', 'largeJavaMultiProject', 'largeMonolithicGroovyProject', 'largeGroovyMultiProject', 'largeJavaMultiProjectNoBuildSrc', 'largeJavaMultiProjectKotlinDsl',
- 'mediumMonolithicJavaProject', 'mediumJavaMultiProject', 'mediumJavaMultiProjectWithTestNG', 'mediumJavaCompositeBuild', 'mediumJavaPredefinedCompositeBuild',
+['monolithWithDependenciesProject', 'lotsOfDependenciesJavaMultiProject', 'largeMonolithicJavaProject',
+ 'largeJavaMultiProject', 'largeMonolithicGroovyProject', 'largeGroovyMultiProject',
+ 'largeJavaMultiProjectNoBuildSrc', 'largeJavaMultiProjectKotlinDsl',
+ 'mediumMonolithicJavaProject', 'mediumJavaMultiProject', 'mediumJavaMultiProjectWithTestNG',
+ 'mediumJavaCompositeBuild', 'mediumJavaPredefinedCompositeBuild',
  'smallJavaMultiProject', 'smallJavaMultiProjectNoBuildSrc'].each { template ->
     performanceTest.registerTestProject(template, JavaExecProjectGeneratorTask) {
         outputs.dir new File(buildDir, template)
@@ -43,7 +53,7 @@ performanceTest.registerTestProject("gradleBuildBaseline", RemoteProject) {
         inputs.property('args') { // Arguments are covered by the testProjectName and the outputs. We don't want them to contain the absolute path
             return []
         }
-        classpath = sourceSets.performanceTest.runtimeClasspath.filter { it.name.contains('groovy') || it.name.contains('guava')  || it.name.contains('gradle-') }
+        classpath = sourceSets.performanceTest.runtimeClasspath.filter { it.name.contains('groovy') || it.name.contains('guava') || it.name.contains('gradle-') }
         mainClass = 'org.gradle.performance.generator.TestProjectGenerator'
         args name, buildDir.absolutePath
     }

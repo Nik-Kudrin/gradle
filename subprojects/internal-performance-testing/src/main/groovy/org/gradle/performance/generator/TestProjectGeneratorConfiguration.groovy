@@ -37,11 +37,14 @@ class TestProjectGeneratorConfiguration {
     String[] externalApiDependencies
     String[] externalImplementationDependencies
 
+    int maxNumberOfDependencies = 20_000
+    int minNumberOfDependencies = 10_000
+
     boolean buildSrc
 
     int subProjects
     int sourceFiles
-    int minLinesOfCodePerSourceFile
+    int minLinesOfCodePerSourceFile = 20
     CompositeConfiguration compositeBuild
 
     String daemonMemory
@@ -63,9 +66,6 @@ class TestProjectGeneratorConfiguration {
     excludes = [
         'plugins',
         'repositories',
-        'externalApiDependencies',
-        'externalImplementationDependencies',
-        'minLinesOfCodePerSourceFile',
         'testRunnerMemory',
         'parallel',
         'maxWorkers',
@@ -73,6 +73,14 @@ class TestProjectGeneratorConfiguration {
         'maxParallelForks'
     ])
 class TestProjectGeneratorConfigurationBuilder {
+    private static Set<String> packages = new HashSet<String>()
+    private static Random random = new Random()
+
+    static {
+        var stream = TestProjectGeneratorConfigurationBuilder.classLoader.getResourceAsStream("Libraries_Final_List.txt")
+        packages = stream.readLines().toSet()
+    }
+
     TestProjectGeneratorConfigurationBuilder(String projectName, Language language = Language.JAVA) {
         this(projectName, projectName, language)
     }
@@ -122,24 +130,42 @@ class TestProjectGeneratorConfigurationBuilder {
 
         config.plugins = this.language == Language.GROOVY ? ['groovy', 'java', 'eclipse', 'idea'] : ['java', 'eclipse', 'idea']
         config.repositories = [mavenCentralRepositoryDefinition(this.dsl)]
-        config.externalApiDependencies = ['commons-lang:commons-lang:2.5', 'commons-httpclient:commons-httpclient:3.0',
-                                          'commons-codec:commons-codec:1.2', 'org.slf4j:jcl-over-slf4j:1.7.10']
-        config.externalImplementationDependencies = ['com.googlecode:reflectasm:1.01']
+
+        System.out.println("Min number of dependencies: " + config.minNumberOfDependencies +
+            " Max number of dependencies: " + config.maxNumberOfDependencies)
+
+        int gap = config.maxNumberOfDependencies - config.minNumberOfDependencies
+        // for both api dependencies and implementation dependencies
+        int dependenciesCount = (config.minNumberOfDependencies + random.nextInt(gap)) / 2
+
+        System.out.println("Dependencies to generate: " + dependenciesCount)
+
+        config.externalApiDependencies = new String[dependenciesCount]
+        config.externalImplementationDependencies = new String[dependenciesCount]
+
+        (0..<dependenciesCount).each { index ->
+            config.externalApiDependencies[index] = packages.getAt(random.nextInt(packages.size()))
+            config.externalImplementationDependencies[index] = packages.getAt(random.nextInt(packages.size()))
+        }
 
         config.subProjects = this.subProjects
         config.sourceFiles = this.sourceFiles
-        config.minLinesOfCodePerSourceFile = 100
+
+        if (config.minLinesOfCodePerSourceFile == 0) {
+            config.minLinesOfCodePerSourceFile = 15
+        }
+
         config.compositeBuild = this.compositeBuild
 
         config.daemonMemory = this.daemonMemory
         config.compilerMemory = this.compilerMemory
-        config.testRunnerMemory = '256m'
+        config.testRunnerMemory = '512m'
         config.parallel = this.subProjects > 0
         config.systemProperties = this.systemProperties
         config.featurePreviews = this.featurePreviews
 
-        config.maxWorkers = 4
-        config.maxParallelForks = this.subProjects > 0 ? 1 : 4
+        config.maxWorkers = 8
+        config.maxParallelForks = this.subProjects > 0 ? 1 : 8
         config.testForkEvery = 1000
         config.useTestNG = this.useTestNG
         config.fileToChangeByScenario = this.fileToChangeByScenario
