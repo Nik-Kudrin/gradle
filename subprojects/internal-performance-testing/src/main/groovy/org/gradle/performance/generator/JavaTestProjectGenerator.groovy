@@ -23,6 +23,18 @@ import static org.gradle.test.fixtures.dsl.GradleDsl.KOTLIN
 
 @CompileStatic
 enum JavaTestProjectGenerator {
+    LOTS_OF_DEPENDENCIES_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("lotsOfDependenciesJavaMultiProject")
+        .withSourceFiles(100)
+        .withSubProjects(5000)
+        .withDaemonMemory('3G')
+        .withCompilerMemory('3G')
+        .withExternalApiDependencies(ExternalDependencies.externalApiDependencies)
+        .withExternalImplementationDependencies(ExternalDependencies.externalImplementationDependencies)
+        .withBuildSrc(true)
+        .assembleChangeFile()
+        .testChangeFile(5000, 22500, 450000)
+        .create()
+    ),
     HUGE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder('hugeJavaMultiProject')
         .withSourceFiles(500)
         .withSubProjects(500)
@@ -169,4 +181,9 @@ enum JavaTestProjectGenerator {
     String toString() {
         return config.projectName
     }
+}
+
+class ExternalDependencies {
+    public static final String[] externalApiDependencies = Arrays.of("", "");
+    public static final String[] externalImplementationDependencies = Arrays.of("", "");
 }
