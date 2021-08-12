@@ -37,14 +37,14 @@ class TestProjectGeneratorConfiguration {
     String[] externalApiDependencies
     String[] externalImplementationDependencies
 
-    int maxNumberOfDependencies = 20_000
-    int minNumberOfDependencies = 10_000
+    int maxNumberOfDependencies = 1000
+    int minNumberOfDependencies = 300
 
     boolean buildSrc
 
     int subProjects
     int sourceFiles
-    int minLinesOfCodePerSourceFile = 20
+    int minLinesOfCodePerSourceFile = 10
     CompositeConfiguration compositeBuild
 
     String daemonMemory
@@ -120,8 +120,19 @@ class TestProjectGeneratorConfigurationBuilder {
         return this
     }
 
+    private String[] getRandomPackages(Set<String> packages, int countOfPackages) {
+        var packagesSubSet = new HashSet<String>(countOfPackages)
+
+        do {
+            packagesSubSet.add(packages.getAt(random.nextInt(packages.size())))
+        } while (packagesSubSet.size() < countOfPackages)
+
+        return packagesSubSet
+    }
+
     TestProjectGeneratorConfiguration create() {
         TestProjectGeneratorConfiguration config = new TestProjectGeneratorConfiguration()
+
         config.projectName = this.projectName
         config.templateName = this.templateName
         config.language = this.language
@@ -138,15 +149,10 @@ class TestProjectGeneratorConfigurationBuilder {
         // for both api dependencies and implementation dependencies
         int dependenciesCount = (config.minNumberOfDependencies + random.nextInt(gap)) / 2
 
-        System.out.println("Dependencies to generate: " + dependenciesCount)
+        System.out.println("Dependencies to generate: " + dependenciesCount * 2)
 
-        config.externalApiDependencies = new String[dependenciesCount]
-        config.externalImplementationDependencies = new String[dependenciesCount]
-
-        (0..<dependenciesCount).each { index ->
-            config.externalApiDependencies[index] = packages.getAt(random.nextInt(packages.size()))
-            config.externalImplementationDependencies[index] = packages.getAt(random.nextInt(packages.size()))
-        }
+        config.externalApiDependencies = getRandomPackages(packages, dependenciesCount)
+        config.externalImplementationDependencies = getRandomPackages(packages, dependenciesCount)
 
         config.subProjects = this.subProjects
         config.sourceFiles = this.sourceFiles
