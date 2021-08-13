@@ -37,7 +37,7 @@ class TestProjectGeneratorConfiguration {
     String[] externalApiDependencies
     String[] externalImplementationDependencies
 
-    int maxNumberOfDependencies = 1000
+    int maxNumberOfDependencies = 500
     int minNumberOfDependencies = 300
 
     boolean buildSrc
@@ -147,11 +147,11 @@ class TestProjectGeneratorConfigurationBuilder {
 
         int gap = config.maxNumberOfDependencies - config.minNumberOfDependencies
         // for both api dependencies and implementation dependencies
-        int dependenciesCount = (config.minNumberOfDependencies + random.nextInt(gap)) / 2
+        int dependenciesCount = (config.minNumberOfDependencies + random.nextInt(gap))
 
-        System.out.println("Dependencies to generate: " + dependenciesCount * 2)
+        System.out.println("Dependencies to generate: " + dependenciesCount)
 
-        config.externalApiDependencies = getRandomPackages(packages, dependenciesCount)
+        config.externalApiDependencies = getRandomPackages(packages, 2)
         config.externalImplementationDependencies = getRandomPackages(packages, dependenciesCount)
 
         config.subProjects = this.subProjects
@@ -170,8 +170,8 @@ class TestProjectGeneratorConfigurationBuilder {
         config.systemProperties = this.systemProperties
         config.featurePreviews = this.featurePreviews
 
-        config.maxWorkers = 8
-        config.maxParallelForks = this.subProjects > 0 ? 1 : 8
+        config.maxWorkers = 16
+        config.maxParallelForks = this.subProjects > 0 ? 1 : 16
         config.testForkEvery = 1000
         config.useTestNG = this.useTestNG
         config.fileToChangeByScenario = this.fileToChangeByScenario

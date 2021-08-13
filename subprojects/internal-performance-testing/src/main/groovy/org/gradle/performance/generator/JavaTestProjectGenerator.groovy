@@ -24,30 +24,29 @@ import static org.gradle.test.fixtures.dsl.GradleDsl.KOTLIN
 @CompileStatic
 enum JavaTestProjectGenerator {
     MONOLITH_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolithWithDependenciesProject")
-        .withSourceFiles(5000000)
+        .withSourceFiles(2000000) // N src + N test = 2N
         .withSubProjects(1)
-        .withDaemonMemory('8G')
-        .withCompilerMemory('8G')
+        .withDaemonMemory('16G')
+        .withCompilerMemory('16G')
         .withBuildSrc(true)
-        .assembleChangeFile()
         .create()
     ),
     MODULES_15000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules15000JavaMultiProject")
-        .withSourceFiles(300)
+        .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(15000)
-        .withDaemonMemory('8G')
-        .withCompilerMemory('8G')
+        .withDaemonMemory('16G')
+        .withCompilerMemory('16G')
         .withBuildSrc(true)
-        .assembleChangeFile()
+        .composite(true)
         .create()
     ),
     MODULES_5000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules5000JavaMultiProject")
-        .withSourceFiles(500)
+        .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(5000)
-        .withDaemonMemory('6G')
-        .withCompilerMemory('6G')
+        .withDaemonMemory('14G')
+        .withCompilerMemory('14G')
         .withBuildSrc(true)
-        .assembleChangeFile()
+        .composite(true)
         .create()
     ),
     HUGE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder('hugeJavaMultiProject')
@@ -67,10 +66,10 @@ enum JavaTestProjectGenerator {
         .testChangeFile(-1)
         .create()),
     LARGE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("largeJavaMultiProject")
-        .withSourceFiles(100)
-        .withSubProjects(500)
-        .withDaemonMemory('1536m')
-        .withCompilerMemory('512m')
+        .withSourceFiles(10)
+        .withSubProjects(5000)
+        .withDaemonMemory('6G')
+        .withCompilerMemory('6G')
         .assembleChangeFile()
         .testChangeFile(450, 2250, 45000).create()),
     LARGE_MONOLITHIC_GROOVY_PROJECT(new TestProjectGeneratorConfigurationBuilder("largeMonolithicGroovyProject", Language.GROOVY)
