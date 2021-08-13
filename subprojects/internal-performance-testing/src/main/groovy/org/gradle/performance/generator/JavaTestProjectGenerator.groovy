@@ -25,6 +25,7 @@ import static org.gradle.test.fixtures.dsl.GradleDsl.KOTLIN
 enum JavaTestProjectGenerator {
     MONOLITH_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolithWithDependenciesProject")
         .withSourceFiles(2000000) // N src + N test = 2N
+    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
         .withSubProjects(1)
         .withDaemonMemory('16G')
         .withCompilerMemory('16G')
@@ -45,6 +46,15 @@ enum JavaTestProjectGenerator {
         .withSubProjects(5000)
         .withDaemonMemory('14G')
         .withCompilerMemory('14G')
+        .withBuildSrc(true)
+        .composite(true)
+        .create()
+    ),
+    MODULES_1000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000JavaMultiProject")
+        .withSourceFiles(100) // N src + N test = 2N
+        .withSubProjects(1000)
+        .withDaemonMemory('12G')
+        .withCompilerMemory('12G')
         .withBuildSrc(true)
         .composite(true)
         .create()

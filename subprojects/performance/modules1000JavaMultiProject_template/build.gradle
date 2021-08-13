@@ -1,0 +1,15 @@
+task clean {
+    dependsOn gradle.includedBuilds*.task(":clean")
+}
+
+
+task assemble {
+    dependsOn gradle.includedBuilds*.task(":assemble")
+}
+
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}

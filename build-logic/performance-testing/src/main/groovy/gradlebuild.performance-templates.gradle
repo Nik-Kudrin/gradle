@@ -40,7 +40,7 @@ performanceTest.registerTestProject("gradleBuildBaseline", RemoteProject) {
 }
 
 // === Java ===
-['monolithWithDependenciesProject', 'modules15000JavaMultiProject', 'modules5000JavaMultiProject',
+['monolithWithDependenciesProject', 'modules15000JavaMultiProject', 'modules5000JavaMultiProject', 'modules1000JavaMultiProject',
  'largeMonolithicJavaProject',
  'largeJavaMultiProject', 'largeMonolithicGroovyProject', 'largeGroovyMultiProject',
  'largeJavaMultiProjectNoBuildSrc', 'largeJavaMultiProjectKotlinDsl',
