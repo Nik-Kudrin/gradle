@@ -32,7 +32,7 @@ enum JavaTestProjectGenerator {
         .withBuildSrc(true)
         .create()
     ),
-    MODULES_15000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules15000JavaMultiProject")
+    MODULES_15000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules15000CompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(15000)
         .withDaemonMemory('16G')
@@ -41,7 +41,7 @@ enum JavaTestProjectGenerator {
         .composite(true)
         .create()
     ),
-    MODULES_5000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules5000JavaMultiProject")
+    MODULES_5000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules5000CompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(5000)
         .withDaemonMemory('14G')
@@ -50,7 +50,23 @@ enum JavaTestProjectGenerator {
         .composite(true)
         .create()
     ),
-    MODULES_1000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000JavaMultiProject")
+    MODULES_4377_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules4377NOTCompositeJavaMultiProject")
+        .withSourceFiles(100) // N src + N test = 2N
+        .withSubProjects(4377)
+        .withDaemonMemory('14G')
+        .withCompilerMemory('14G')
+        .withBuildSrc(true)
+        .create()
+    ),
+    MODULES_1000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000NOTCompositeJavaMultiProject")
+        .withSourceFiles(100) // N src + N test = 2N
+        .withSubProjects(1000)
+        .withDaemonMemory('12G')
+        .withCompilerMemory('12G')
+        .withBuildSrc(true)
+        .create()
+    ),
+    MODULES_1000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000CompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(1000)
         .withDaemonMemory('12G')
@@ -60,12 +76,13 @@ enum JavaTestProjectGenerator {
         .create()
     ),
     HUGE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder('hugeJavaMultiProject')
-        .withSourceFiles(500)
+        .withSourceFiles(100)
         .withSubProjects(500)
-        .withDaemonMemory('1536m')
-        .withCompilerMemory('1g')
-        .assembleChangeFile()
-        .testChangeFile(450, 2250, 45000).create()
+        .withDaemonMemory('10G')
+        .withCompilerMemory('10g')
+//        .assembleChangeFile()
+//        .testChangeFile(450, 2250, 45000)
+        .create()
     ),
     LARGE_MONOLITHIC_JAVA_PROJECT(new TestProjectGeneratorConfigurationBuilder("largeMonolithicJavaProject")
         .withSourceFiles(50000)
