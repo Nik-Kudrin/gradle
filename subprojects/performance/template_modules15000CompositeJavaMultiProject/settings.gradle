@@ -1,0 +1,5 @@
+includeBuild "project_group0"
+includeBuild "project_group1"
+includeBuild "project_group2"
+includeBuild "project_group3"
+includeBuild "project_group4"

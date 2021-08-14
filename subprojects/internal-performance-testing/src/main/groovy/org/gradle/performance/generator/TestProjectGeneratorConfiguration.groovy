@@ -73,12 +73,12 @@ class TestProjectGeneratorConfiguration {
         'maxParallelForks'
     ])
 class TestProjectGeneratorConfigurationBuilder {
-    private static Set<String> packages = new HashSet<String>()
+    private static List<String> packages
     private static Random random = new Random()
 
     static {
         var stream = TestProjectGeneratorConfigurationBuilder.classLoader.getResourceAsStream("Libraries_Final_List.txt")
-        packages = stream.readLines().toSet()
+        packages = stream.readLines()
     }
 
     TestProjectGeneratorConfigurationBuilder(String projectName, Language language = Language.JAVA) {
@@ -120,7 +120,7 @@ class TestProjectGeneratorConfigurationBuilder {
         return this
     }
 
-    private String[] getRandomPackages(Set<String> packages, int countOfPackages) {
+    private static String[] getRandomPackages(Set<String> packages, int countOfPackages) {
         var packagesSubSet = new HashSet<String>(countOfPackages)
 
         do {
@@ -151,8 +151,9 @@ class TestProjectGeneratorConfigurationBuilder {
 
         System.out.println("Dependencies to generate: " + dependenciesCount)
 
-        config.externalApiDependencies = getRandomPackages(packages, 2)
-        config.externalImplementationDependencies = getRandomPackages(packages, dependenciesCount)
+        // for storage optimisation. Thousand of packages consume a lot of space
+        config.externalApiDependencies = packages.take(2).toArray()
+        config.externalImplementationDependencies = packages.take(dependenciesCount).toArray()
 
         config.subProjects = this.subProjects
         config.sourceFiles = this.sourceFiles
