@@ -77,7 +77,7 @@ class TestProjectGeneratorConfigurationBuilder {
     private static Random random = new Random()
 
     static {
-        var stream = TestProjectGeneratorConfigurationBuilder.classLoader.getResourceAsStream("Libraries_Final_List.txt")
+        var stream = TestProjectGeneratorConfigurationBuilder.classLoader.getResourceAsStream("TOTAL_PACKAGES_EXIST.txt")
         packages = stream.readLines()
     }
 

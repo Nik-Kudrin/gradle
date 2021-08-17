@@ -27,8 +27,8 @@ enum JavaTestProjectGenerator {
         .withSourceFiles(2000000) // N src + N test = 2N
     // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
         .withSubProjects(1)
-        .withDaemonMemory('18G')
-        .withCompilerMemory('18G')
+        .withDaemonMemory('20G')
+        .withCompilerMemory('20G')
         .withBuildSrc(true)
         .create()
     ),
