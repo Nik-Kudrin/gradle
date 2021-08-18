@@ -22,6 +22,7 @@ import groovy.transform.builder.ExternalStrategy
 import org.gradle.test.fixtures.dsl.GradleDsl
 import org.gradle.test.fixtures.language.Language
 
+import static org.gradle.integtests.fixtures.RepoScriptBlockUtil.googleRepositoryDefinition
 import static org.gradle.integtests.fixtures.RepoScriptBlockUtil.mavenCentralRepositoryDefinition
 
 @CompileStatic
@@ -140,7 +141,7 @@ class TestProjectGeneratorConfigurationBuilder {
         config.buildSrc = this.buildSrc
 
         config.plugins = this.language == Language.GROOVY ? ['groovy', 'java', 'eclipse', 'idea'] : ['java', 'eclipse', 'idea']
-        config.repositories = [mavenCentralRepositoryDefinition(this.dsl)]
+        config.repositories = [mavenCentralRepositoryDefinition(this.dsl), googleRepositoryDefinition(this.dsl)]
 
         System.out.println("Min number of dependencies: " + config.minNumberOfDependencies +
             " Max number of dependencies: " + config.maxNumberOfDependencies)
