@@ -32,7 +32,7 @@ enum JavaTestProjectGenerator {
     // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
         .withSubProjects(1)
         .withDaemonMemory('16G')
-        .withCompilerMemory('10G')
+        .withCompilerMemory('4G')
         .withBuildSrc(true)
         .create()
     ),
@@ -41,7 +41,7 @@ enum JavaTestProjectGenerator {
     // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
         .withSubProjects(1)
         .withDaemonMemory('16G')
-        .withCompilerMemory('10G')
+        .withCompilerMemory('4G')
         .withBuildSrc(true)
         .create()
     ),
@@ -49,7 +49,7 @@ enum JavaTestProjectGenerator {
     MODULES_15000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules15000CompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(5000)
-        .withDaemonMemory('24G')
+        .withDaemonMemory('16G')
         .withCompilerMemory('2G')
         .withBuildSrc(true)
         .composite(true)
@@ -58,7 +58,7 @@ enum JavaTestProjectGenerator {
     MODULES_5000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules5000CompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(1666)
-        .withDaemonMemory('16G')
+        .withDaemonMemory('12G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .composite(true)
@@ -67,7 +67,7 @@ enum JavaTestProjectGenerator {
     MODULES_4377_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules4377NOTCompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(1450)
-        .withDaemonMemory('16G')
+        .withDaemonMemory('12G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .create()
