@@ -36,7 +36,7 @@ enum JavaTestProjectGenerator {
         .create()
     ),
 
-    MONOLITH_2_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith2000000WithDependenciesProject")
+    MONOLITH_4_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith4000000WithDependenciesProject")
         .withSourceFiles(2000000) // N on input will result in 2N output (N src + N test)
     // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to include (4200 ?)
         .withSubProjects(1)
@@ -45,7 +45,7 @@ enum JavaTestProjectGenerator {
         .withBuildSrc(true)
         .create()
     ),
-    MONOLITH_1_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith1000000WithDependenciesProject")
+    MONOLITH_2_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith2000000WithDependenciesProject")
         .withSourceFiles(1000000) // N on input will result in 2N output (N src + N test)
     // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to include (4200 ?)
         .withSubProjects(1)
