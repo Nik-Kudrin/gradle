@@ -38,8 +38,8 @@ class TestProjectGeneratorConfiguration {
     String[] externalApiDependencies
     String[] externalImplementationDependencies
 
-    int maxNumberOfDependencies = 500
-    int minNumberOfDependencies = 300
+    int maxNumberOfDependencies = 4200
+    int minNumberOfDependencies = 4150
 
     boolean buildSrc
 

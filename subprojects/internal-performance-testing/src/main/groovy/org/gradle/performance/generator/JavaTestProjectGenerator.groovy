@@ -26,10 +26,19 @@ import static org.gradle.test.fixtures.dsl.GradleDsl.KOTLIN
  */
 @CompileStatic
 enum JavaTestProjectGenerator {
+    MODULES_15_JAVA_MULTI_PROJECT_WITH_DEPENDENCIES(new TestProjectGeneratorConfigurationBuilder("modules15WithDependenciesProject")
+        .withSourceFiles(10000) // N on input will result in 2N output (N src + N test)
+    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to include (4200 ?)
+        .withSubProjects(5)
+        .withDaemonMemory('2G')
+        .withCompilerMemory('1G')
+        .withBuildSrc(true)
+        .create()
+    ),
 
     MONOLITH_2_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith2000000WithDependenciesProject")
-        .withSourceFiles(2000000) // N src + N test = 2N
-    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
+        .withSourceFiles(2000000) // N on input will result in 2N output (N src + N test)
+    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to include (4200 ?)
         .withSubProjects(1)
         .withDaemonMemory('16G')
         .withCompilerMemory('4G')
@@ -37,28 +46,28 @@ enum JavaTestProjectGenerator {
         .create()
     ),
     MONOLITH_1_000_000_WITH_DEPENDENCIES_PROJECT(new TestProjectGeneratorConfigurationBuilder("monolith1000000WithDependenciesProject")
-        .withSourceFiles(1000000) // N src + N test = 2N
-    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to inclue (40k-50k ?)
+        .withSourceFiles(1000000) // N on input will result in 2N output (N src + N test)
+    // + configure manually in [TestProjectGeneratorConfiguration] how many dependencies to include (4200 ?)
         .withSubProjects(1)
-        .withDaemonMemory('16G')
+        .withDaemonMemory('10G')
         .withCompilerMemory('4G')
         .withBuildSrc(true)
         .create()
     ),
 
     MODULES_15000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules15000CompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(5000)
-        .withDaemonMemory('16G')
+        .withDaemonMemory('10G')
         .withCompilerMemory('2G')
         .withBuildSrc(true)
         .composite(true)
         .create()
     ),
     MODULES_5000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules5000CompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(1666)
-        .withDaemonMemory('12G')
+        .withDaemonMemory('8G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .composite(true)
@@ -67,41 +76,41 @@ enum JavaTestProjectGenerator {
     MODULES_4377_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules4377NOTCompositeJavaMultiProject")
         .withSourceFiles(100) // N src + N test = 2N
         .withSubProjects(1450)
-        .withDaemonMemory('12G')
+        .withDaemonMemory('8G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .create()
     ),
     MODULES_1000_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000NOTCompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(333)
-        .withDaemonMemory('8G')
+        .withDaemonMemory('6G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .create()
     ),
     MODULES_1000_COMPOSITE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules1000CompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(333)
-        .withDaemonMemory('8G')
+        .withDaemonMemory('6G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .composite(true)
         .create()
     ),
     MODULES_500_COMPOSITE_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules500CompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(167)
-        .withDaemonMemory('6G')
+        .withDaemonMemory('4G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .composite(true)
         .create()
     ),
     MODULES_500_JAVA_MULTI_PROJECT(new TestProjectGeneratorConfigurationBuilder("modules500NOTCompositeJavaMultiProject")
-        .withSourceFiles(100) // N src + N test = 2N
+        .withSourceFiles(100) // N on input will result in 2N output (N src + N test)
         .withSubProjects(167)
-        .withDaemonMemory('6G')
+        .withDaemonMemory('4G')
         .withCompilerMemory('1G')
         .withBuildSrc(true)
         .create()
