@@ -100,7 +100,7 @@ org.seleniumhq.selenium:selenium-safari-driver:3.141.59
 org.apache.activemq.tooling:activemq-junit:5.14.5
 org.apache.qpid:qpid-broker-core:8.0.1
 org.jruby:jruby:9.2.14.0
-org.mortbay.jetty:jetty-util:6.1.26
+org.eclipse.jetty:jetty-util:11.0.15
 org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.2.Final
 com.tngtech.archunit:archunit-junit5:0.20.0
 org.apache.flink:flink-runtime_2.11:1.13.1
@@ -121,7 +121,7 @@ org.lmdbjava:lmdbjava-native-osx-x86_64:0.9.21-1
 javax.servlet.jsp:jsp-api:2.1
 org.apache.parquet:parquet-column:1.12.0
 org.codelibs:jhighlight:1.0.3
-org.apache.commons:commons-configuration2:2.4
+org.apache.commons:commons-configuration2:2.9.0
 org.apache.lucene:lucene-join:8.8.2
 com.eclipsesource.j2v8:j2v8_linux_x86_64:4.6.0
 org.apache.maven.shared:maven-common-artifact-filters:3.1.0
@@ -346,7 +346,7 @@ org.apache.maven.plugins:maven-shade-plugin:3.2.1
 org.twister2:resource-scheduler-java:0.6.0
 org.lz4:lz4-java:1.8.0
 org.apache.directory.server:apacheds-core-annotations:2.0.0-M24
-com.amazonaws:aws-java-sdk-s3:1.11.974
+com.amazonaws:aws-java-sdk-s3:1.12.477
 org.apache.shiro:shiro-config-ogdl:1.7.0
 org.apache.hadoop:hadoop-annotations:3.3.0
 net.sf.supercsv:super-csv:2.2.0
