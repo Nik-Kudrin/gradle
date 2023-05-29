@@ -23,7 +23,7 @@ org.apache.directory.shared:shared-ldap-jndi:0.9.19
 software.amazon.awssdk:apache-client:2.2.0
 org.apache.curator:curator-recipes:4.2.0
 jakarta.websocket:jakarta.websocket-api:1.1.2
-com.typesafe.akka:akka-http-core_2.12:10.1.12
+com.typesafe.akka:akka-http-core_3:10.5.2
 com.thoughtworks.qdox:qdox:2.0.0
 org.caffinitas.ohc:ohc-core-j8:0.4.4
 com.sun.xml.bind:jaxb-osgi:2.2.10
@@ -243,7 +243,7 @@ org.eclipse.aether:aether-api:1.1.0
 org.apache.directory.server:apacheds-protocol-kerberos:2.0.0-M24
 org.infinispan:infinispan-spring5-embedded:9.4.16.Final
 org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.3.0
-org.infinispan:infinispan-core:9.4.16.Final
+org.infinispan:infinispan-core:14.0.9.Final
 org.webjars.bower:jquery:[1.9.0,)
 com.google.code.findbugs:jFormatString:2.0.1
 com.squareup:javapoet:1.7.0
@@ -304,7 +304,7 @@ org.apache.lucene:lucene-suggest:8.8.2
 javax.jdo:jdo2-api:2.3-eb
 edu.hm.hafner:echarts-build-trends:2.0.0
 com.ning:async-http-client:1.9.40
-org.thymeleaf:thymeleaf-spring5:3.0.9.RELEASE
+org.thymeleaf:thymeleaf-spring6:3.1.1.RELEASE
 io.dropwizard.metrics:metrics-json:4.1.25
 org.sonatype.plexus:plexus-build-api:0.0.7
 org.junit.jupiter:junit-jupiter-api:5.7.2
