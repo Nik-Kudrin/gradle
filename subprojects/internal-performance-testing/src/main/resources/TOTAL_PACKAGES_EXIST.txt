@@ -167,7 +167,7 @@ org.apache.directory.shared:shared-ldap-schema-loader:0.9.19
 jakarta.inject:jakarta.inject-api:2.0.0
 com.jayway.jsonpath:json-path:2.6.0
 com.google.cloud:google-cloud-recommendations-ai:0.3.7
-net.sourceforge.htmlunit:neko-htmlunit:2.36.0
+net.sourceforge.htmlunit:neko-htmlunit:2.70.0
 org.ldaptive:ldaptive:1.0.13
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr:2.7.7_5
 org.eclipse.jetty:jetty-reactive-httpclient:1.0.3
@@ -401,7 +401,6 @@ org.elasticsearch:elasticsearch-geo:7.9.2
 com.google.apis:google-api-services-bigquery:v2-rev20210410-1.31.0
 org.apache.directory.server:apacheds-server-config:2.0.0-M24
 org.apache.maven:maven-jxr:2.5
-net.sourceforge.nekohtml:nekohtml:1.9.22
 ant:ant:1.6.5
 io.grpc:grpc-api:1.39.0
 com.google.apis:google-api-services-admin-directory:directory_v1-rev118-1.25.0
