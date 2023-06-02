@@ -909,7 +909,6 @@ com.eed3si9n:sjson-new-scalajson_2.12:0.8.3
 org.antlr:stringtemplate:4.0.2
 org.apache.derby:derby:10.6.1.0
 com.google.appengine:appengine-remote-api:1.9.86
-stax:stax-api:1.0.1
 com.github.jai-imageio:jai-imageio-core:1.4.0
 com.ibm.icu:icu4j:68.2
 org.apache.directory.shared:shared-asn1:0.9.19
@@ -1591,7 +1590,6 @@ org.apache.datasketches:datasketches-memory:1.2.0-incubating
 org.apache.curator:curator-x-discovery:4.1.0
 org.projectlombok:lombok:1.18.6
 com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.34.60
-org.elasticsearch.client:elasticsearch-rest-high-level-client:7.9.2
 net.sf.proguard:proguard-gradle:5.3.3
 io.micrometer:micrometer-registry-prometheus:1.3.0
 org.apache.hadoop:hadoop-yarn-common:3.3.0
@@ -2911,7 +2909,6 @@ junit-addons:junit-addons:1.4
 com.sun.xml.stream:sjsxp:1.0.1
 org.apache.james:apache-mime4j:0.6.1
 jstl:jstl:1.2
-stax:stax:1.2.0
 com.googlecode.lambdaj:lambdaj:2.3.3
 net.sourceforge.jeuclid:jeuclid-core:3.1.9
 com.momomo:momomo.com.platform.db.transactional.Hibernate:5.0.2
@@ -3029,7 +3026,6 @@ net.databinder.dispatch:dispatch-core_2.11:0.11.3
 net.databinder:unfiltered-netty-server_2.11:0.8.4
 net.databinder:unfiltered-netty_2.11:0.8.4
 net.databinder:unfiltered_2.11:0.8.4
-net.databinder:unfiltered-util_2.11:0.8.4
 org.jboss.threads:jboss-threads:2.3.0.Beta2
 org.apache.commons:commons-jexl:2.0.1
 com.sun.xml.bind.external:relaxng-datatype:3.0.1
