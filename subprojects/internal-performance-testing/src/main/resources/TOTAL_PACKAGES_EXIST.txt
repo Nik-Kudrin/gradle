@@ -6,13 +6,11 @@ org.eclipse.jetty:jetty-util-ajax:9.4.6.v20170531
 org.cryptacular:cryptacular:1.2.4
 com.google.apis:google-api-services-blogger:v3-rev20150422-1.28.0
 com.github.jsqlparser:jsqlparser:3.2
-org.twister2:proto-java:0.6.0
 org.springframework.batch:spring-batch-core:5.0.2
 org.testcontainers:junit-jupiter:1.15.2
 org.tallison:isoparser:1.9.41.4
 io.netty:netty-handler:4.1.9.Final
 com.fasterxml.jackson.core:jackson-annotations:2.9.9
-com.jcraft:jzlib:1.1.3
 com.vladsch.flexmark:flexmark-ext-jekyll-tag:0.34.60
 org.apache.maven:maven-settings:3.8.2
 org.codehaus.plexus:plexus-resources:1.1.0
@@ -72,7 +70,6 @@ net.sourceforge.htmlunit:htmlunit-cssparser:1.5.0
 org.xerial.snappy:snappy-java:1.1.8.4
 net.hydromatic:aggdesigner-algorithm:6.0
 org.hibernate:hibernate-validator:6.1.5.Final
-org.mortbay.jetty:servlet-api-2.5:6.1.14
 org.apache.arrow:arrow-vector:2.0.0
 org.ops4j.pax.exam:pax-exam-container-rbc-client:4.12.0
 com.diffplug.durian:durian-cache:1.2.0
@@ -160,7 +157,6 @@ com.oracle.database.jdbc:ojdbc8:21.1.0.0
 com.microsoft.azure:azure-cosmosdb-commons:2.4.5
 org.carrot2:morfologik-stemming:2.1.5
 org.opensaml:opensaml-storage-impl:3.4.5
-software.amazon.awssdk:profiles:2.16.86
 org.apache.directory.shared:shared-ldap-schema-loader:0.9.19
 jakarta.inject:jakarta.inject-api:2.0.0
 com.jayway.jsonpath:json-path:2.6.0
@@ -187,7 +183,6 @@ jakarta.jws:jakarta.jws-api:1.1.1
 org.junit.platform:junit-platform-console:1.7.2
 io.opentracing:opentracing-noop:0.33.0
 org.glassfish.hk2:class-model:2.6.1
-javax.servlet:jsp-api:2.0
 org.apache.kerby:kerb-simplekdc:1.1.1
 org.apache.tomcat.embed:tomcat-embed-el:9.0.50
 org.glassfish.jersey.core:jersey-client:2.8
@@ -266,7 +261,6 @@ io.jsonwebtoken:jjwt-jackson:0.11.2
 org.springframework.boot:spring-boot-starter-jdbc:2.4.5
 io.opencensus:opencensus-impl-core:0.20.0
 org.tallison:jmatio:1.5
-org.skyscreamer:jsonassert:1.5.0
 javax.servlet:servlet-api:2.5
 javax.servlet:javax.servlet-api:4.0.1
 io.micrometer:micrometer-registry-statsd:1.3.0
@@ -398,13 +392,11 @@ org.elasticsearch:elasticsearch-geo:7.9.2
 com.google.apis:google-api-services-bigquery:v2-rev20210410-1.31.0
 org.apache.directory.server:apacheds-server-config:2.0.0-M24
 org.apache.maven:maven-jxr:2.5
-ant:ant:1.6.5
 io.grpc:grpc-api:1.39.0
 com.google.apis:google-api-services-admin-directory:directory_v1-rev118-1.25.0
 org.apache.curator:curator-client:4.2.0
 org.apache.tomcat:tomcat-jdbc:9.0.41
 org.twister2:comms-api-java:0.6.0
-org.jboss.xnio:xnio-nio:3.8.9.Final
 jakarta.enterprise:jakarta.enterprise.cdi-api:3.0.0
 org.opensaml:opensaml-soap-impl:3.4.5
 com.google.api-client:google-api-client:1.31.3
@@ -446,7 +438,6 @@ org.apache.maven.doxia:doxia-decoration-model:1.4
 com.typesafe.akka:akka-http_2.12:10.1.12
 com.amazonaws:aws-java-sdk-kms:1.11.974
 org.springframework.restdocs:spring-restdocs-core:2.0.4.RELEASE
-com.typesafe:ssl-config-core_2.12:0.4.1
 com.google.api:gax:1.63.0
 org.apache.hbase:hbase-shaded-server:1.2.6
 com.eed3si9n:shaded-scalajson_2.12:1.0.0-M4
@@ -508,7 +499,6 @@ com.diffplug.durian:durian-reflect:1.2.0
 io.netty:netty-codec:4.1.66.Final
 org.abego.treelayout:org.abego.treelayout.core:1.0.3
 org.eclipse.jetty:jetty-alpn-server:9.4.42.v20210604
-org.jetbrains.kotlin:kotlin-compiler-embeddable:1.5.21
 org.apache.maven:maven-core:3.8.2
 org.springframework.boot:spring-boot-configuration-processor:2.5.3
 com.baomidou:mybatis-plus-annotation:3.4.1
@@ -531,7 +521,6 @@ org.apache.kerby:kerb-admin:1.1.1
 io.reactivex:rxnetty:0.4.9
 io.sundr:resourcecify-annotations:0.19.2
 org.jetbrains.kotlin:kotlin-stdlib:1.5.21
-org.jodd:jodd-core:3.7.1
 io.debezium:debezium-connector-mysql:1.3.1.Final
 com.sun.jersey:jersey-server:1.9
 org.apache.tomcat:tomcat-jsp-api:9.0.48
@@ -549,7 +538,6 @@ com.microsoft.azure:azure-storage:8.6.5
 org.apache.lucene:lucene-core:8.8.2
 javax.ws.rs:javax.ws.rs-api:2.1.1
 com.github.junrar:junrar:7.4.0
-net.bytebuddy:byte-buddy-agent:1.9.7
 com.esotericsoftware:reflectasm:1.11.9
 com.samskivert:jmustache:1.15
 org.apache.lucene:lucene-queryparser:8.8.2
@@ -660,14 +648,12 @@ com.github.java-json-tools:jackson-coreutils:2.0
 org.apache.htrace:htrace-core4:4.2.0-incubating
 org.apache.parquet:parquet-hadoop-bundle:1.8.3
 org.glassfish.hk2:hk2-utils:2.6.1
-edu.ucar:netcdf4:4.5.5
 org.vafer:jdependency:2.1.1
 org.springframework.cloud:spring-cloud-connectors-core:2.0.6.RELEASE
 org.apache.johnzon:johnzon-jsonb:1.2.1
 io.reactivex:rxjava:1.3.8
 org.springframework.plugin:spring-plugin-metadata:2.0.0.RELEASE
 org.apache.lucene:lucene-memory:8.8.2
-org.apache.pdfbox:preflight:2.0.23
 com.microsoft.azure:azure-mgmt-keyvault:1.34.0
 org.codehaus.groovy:groovy-json:3.0.8
 org.opentest4j:opentest4j:1.2.0
@@ -732,7 +718,6 @@ com.google.monitoring-client:stackdriver:1.0.7
 org.twister2:driver-api-java:0.6.0
 com.baomidou:mybatis-plus:3.4.1
 org.apache.hive.shims:hive-shims-common:2.3.3
-org.apache.maven.reporting:maven-reporting-impl:2.3
 org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final
 org.opensaml:opensaml-saml-api:3.4.5
 com.atomikos:atomikos-util:4.0.6
@@ -755,7 +740,6 @@ org.mortbay.jasper:apache-el:8.5.54
 org.eclipse.jetty:apache-jsp:9.4.43.v20210629
 com.squareup:javawriter:2.5.0
 org.apache.cxf:cxf-rt-frontend-jaxrs:3.4.3
-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9
 com.google.http-client:google-http-client:1.39.2
 org.apache.geronimo.specs:geronimo-jaspic_1.0_spec:1.0
 com.google.api-client:google-api-client-jackson2:1.31.0
@@ -793,10 +777,8 @@ org.apache.sis.core:sis-feature:1.0
 com.google.oauth-client:google-oauth-client:1.31.4
 org.apache.hadoop:hadoop-minicluster:3.1.0
 com.amazonaws:jmespath-java:1.11.974
-org.ops4j.pax.exam:pax-exam-junit4:4.6.0
 org.apache.lucene:lucene-analyzers-common:8.8.2
 org.elasticsearch.plugin:mapper-extras-client:7.9.2
-com.google.apis:google-api-services-cloudkms:v1-rev29-1.23.0
 org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
 org.springframework.boot:spring-boot-starter-actuator:2.1.4.RELEASE
 com.googlecode.json-simple:json-simple:1.1.1
@@ -860,7 +842,6 @@ org.jetbrains.kotlin:kotlin-util-klib:1.5.21
 org.apache.directory.api:api-ldap-extras-codec:1.0.1
 org.apache.lucene:lucene-spatial:7.7.2
 org.apache.derby:derbyclient:10.14.2.0
-com.github.rholder:guava-retrying:2.0.0
 software.amazon.awssdk:http-client-spi:2.2.0
 org.glassfish.jersey.core:jersey-common:2.34
 org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715
@@ -903,7 +884,7 @@ org.wildfly.common:wildfly-common:1.5.1.Final
 com.google.apis:google-api-services-sheets:v4-rev612-1.25.0
 org.apache.flink:flink-statebackend-rocksdb_2.11:1.13.1
 io.micrometer:micrometer-registry-atlas:1.3.0
-org.apache.ant:ant:[1.8.0,)
+org.apache.ant:ant:1.8.0
 com.google.api.grpc:proto-google-cloud-vision-v1p1beta1:0.85.0
 com.eed3si9n:sjson-new-scalajson_2.12:0.8.3
 org.antlr:stringtemplate:4.0.2
@@ -916,12 +897,10 @@ org.mock-server:mockserver-core:5.11.1
 org.apache.tez:tez-common:0.10.0
 org.apache.hive:hive-storage-api:2.7.2
 org.powermock:powermock-api-mockito-common:1.7.4
-org.jetbrains.intellij.deps:trove4j:1.0.20181211
 org.apache.activemq.protobuf:activemq-protobuf:1.1
 org.springframework.security:spring-security-core:5.5.2
 com.vladsch.flexmark:flexmark-ext-emoji:0.34.60
 org.apache.hive:hive-llap-server:2.1.0
-org.apache.james:apache-mime4j-dom:0.8.3
 org.apache.kerby:kerby-asn1:1.1.1
 org.mongodb:mongo-java-driver:3.7.1
 org.apache.pdfbox:xmpbox:2.0.8
@@ -968,7 +947,6 @@ joda-time:joda-time:2.9.9
 org.apache.johnzon:johnzon-core:1.2.1
 jakarta.json:jakarta.json-api:1.1.6
 com.oracle.ojdbc:ons:19.3.0.0
-com.google.api.grpc:proto-google-cloud-video-intelligence-v1p3beta1:0.88.0
 com.github.jnr:jnr-constants:0.9.9
 com.google.auth:google-auth-library-oauth2-http:0.25.2
 dom4j:dom4j:1.6.1
@@ -1008,7 +986,6 @@ org.jetbrains.kotlin:kotlin-sam-with-receiver-compiler-plugin:1.5.21
 io.jsonwebtoken:jjwt-impl:0.11.2
 com.github.java-json-tools:msg-simple:1.2
 com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta1:0.117.0
-com.vladsch.flexmark:flexmark-ext-ins:0.34.60
 jakarta.el:jakarta.el-api:4.0.0
 org.codehaus.groovy:groovy-test:3.0.8
 com.google.errorprone:error_prone_annotations:2.6.0
@@ -1249,13 +1226,11 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21
 com.google.cloud:google-cloud-pubsub:1.112.0
 org.apache.commons:commons-vfs2:2.1
 org.apache.lucene:lucene-sandbox:8.8.2
-com.oracle.ojdbc:ucp:19.3.0.0
 org.apache.directory.server:apacheds-jdbm-partition:2.0.0-M24
 org.gebish:geb-spock:2.2
 org.ops4j.pax.swissbox:pax-swissbox-core:1.8.2
 org.apache.maven.doxia:doxia-module-xhtml:1.4
 de.flapdoodle.embed:de.flapdoodle.embed.mongo:2.2.0
-org.springframework.session:spring-session-data-redis:2.2.0.RELEASE
 org.twister2:fault-tolerance-api-java:0.6.0
 org.apache.beam:beam-model-job-management:2.28.0
 com.google.appengine:appengine-api-stubs:1.9.86
@@ -1292,7 +1267,6 @@ org.mortbay.jetty:servlet-api:2.5-20081211
 com.github.fge:uri-template:0.9
 org.apache.lucene:lucene-expressions:8.8.2
 com.couchbase.client:encryption:1.0.0
-org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.5.21
 com.google.cloud.bigtable:bigtable-client-core:1.19.1
 com.carrotsearch:hppc:0.8.2
 com.google.api.grpc:proto-google-common-protos:2.1.0
@@ -1428,15 +1402,12 @@ org.apache.karaf:org.apache.karaf.client:4.2.1
 org.jboss.byteman:byteman-install:4.0.13
 org.eclipse.jetty:jetty-servlet:9.4.8.v20171121
 io.mockk:mockk-dsl-jvm:1.9.3
-org.nibor.autolink:autolink:0.6.0
 org.springframework.boot:spring-boot-starter-reactor-netty:2.5.3
 io.prometheus:simpleclient:0.7.0
 org.jsoup:jsoup:1.8.3
 com.epam:parso:2.0.14
 org.springframework.boot:spring-boot-devtools:2.2.5.RELEASE
-args4j:args4j:2.33
 org.codehaus.jackson:jackson-jaxrs:1.9.2
-org.springframework:spring-expression:5.3.9
 com.squareup.okio:okio:2.8.0
 com.datastax.cassandra:cassandra-driver-mapping:3.2.0
 org.codehaus.plexus:plexus-archiver:4.2.1
@@ -1503,7 +1474,6 @@ org.apache.activemq:activemq-openwire-legacy:5.16.3
 org.apache.ant:ant-compress:1.5
 org.apache.taglibs:taglibs-standard-impl:1.2.5
 com.typesafe.akka:akka-stream_2.12:2.6.4
-com.amazonaws:aws-java-sdk-dynamodb:1.11.974
 org.apache.karaf.features:base:4.2.1
 org.eclipse.jetty.http2:http2-common:9.4.42.v20210604
 org.apache.accumulo:accumulo-start:1.7.3
@@ -1512,7 +1482,6 @@ org.apache.commons:commons-dbcp2:2.8.0
 commons-dbcp:commons-dbcp:1.4
 io.rest-assured:rest-assured-common:3.3.0
 org.codehaus.plexus:plexus-io:3.2.0
-org.elasticsearch.client:transport:7.3.0
 com.github.jnr:jnr-enxio:0.32.3
 org.powermock:powermock-api-easymock:2.0.9
 com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2
@@ -1639,7 +1608,6 @@ commons-fileupload:commons-fileupload:1.4
 org.apache.hbase:hbase-common:2.0.0-alpha4
 com.microsoft.azure:azure-mgmt-graph-rbac:1.34.0
 jakarta.ws.rs:jakarta.ws.rs-api:2.1.6
-se.michaelthelin.spotify:spotify-web-api-java:2.1.2
 com.typesafe.akka:akka-slf4j_2.12:2.6.4
 org.jboss.xnio:xnio-api:3.6.5.Final
 com.google.gradle:osdetector-gradle-plugin:1.6.2
@@ -1667,7 +1635,6 @@ org.jboss:jboss-transaction-spi:7.6.1.Final
 org.eclipse.jetty.websocket:websocket-common:9.4.43.v20210629
 org.apache.flink:flink-optimizer_2.11:1.13.1
 org.seleniumhq.selenium:selenium-remote-driver:3.141.59
-com.squareup.retrofit2:converter-moshi:2.8.1
 org.apache.commons:commons-compress:1.9
 ldapsdk:ldapsdk:4.1
 xmlunit:xmlunit:1.6
@@ -1713,7 +1680,6 @@ com.google.zetasql:zetasql-jni-channel-linux:2020.10.1
 org.apache.directory.server:apacheds-core-api:2.0.0-M24
 org.apache.jena:jena-shaded-guava:3.9.0
 org.apache.spark:spark-network-shuffle_2.12:3.1.2
-com.carrotsearch.randomizedtesting:junit4-ant:2.7.2
 org.mock-server:mockserver-netty:5.11.1
 io.micrometer:micrometer-registry-new-relic:1.3.0
 javax.ws.rs:jsr311-api:1.1.1
@@ -1758,7 +1724,6 @@ net.java.dev.jna:jna-platform:5.6.0
 org.codehaus.groovy:groovy-sql:3.0.8
 org.apache.poi:poi-ooxml-schemas:4.1.2
 org.jboss.spec.javax.servlet:jboss-servlet-api_3.0_spec:1.0.1.Final
-software.amazon.awssdk:protocol-core:2.2.0
 com.netflix.spectator:spectator-api:0.96.0
 org.apache.maven.doxia:doxia-core:1.4
 io.netty:netty-handler-proxy:4.1.66.Final
@@ -1876,7 +1841,6 @@ org.caffinitas.ohc:ohc-core:0.4.4
 com.tdunning:json:1.8
 org.apache.taglibs:taglibs-standard-spec:1.2.5
 org.apache.beam:beam-vendor-bytebuddy-1_11_0:0.1
-org.apache.karaf:org.apache.karaf.main:4.2.1
 org.apache.pig:pig:0.16.0
 com.google.photos.library:google-photos-library-client:1.5.0
 io.pebbletemplates:pebble:3.1.5
@@ -2031,7 +1995,6 @@ org.twister2:master-java:0.6.0
 org.springframework:spring-context-support:5.3.9
 org.apache.logging.log4j:log4j-1.2-api:2.6.2
 software.amazon.awssdk:aws-query-protocol:2.2.0
-com.cedarsoftware:java-util:1.9.0
 org.gebish:geb-ast:2.2
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.dom4j:1.6.1_5
 org.apache.james:apache-mime4j-core:0.8.3
@@ -2192,7 +2155,6 @@ org.apache.pdfbox:pdfbox:2.0.8
 org.springframework.boot:spring-boot-starter-aop:2.5.3
 org.jboss.narayana.jta:narayana-jta-jakarta:5.11.2.Final
 org.owasp.encoder:encoder:1.2.3
-org.jetbrains.kotlin:kotlin-compiler-runner:1.5.21
 com.autonomousapps:dependency-analysis-gradle-plugin:0.71.0
 cglib:cglib-nodep:3.3.0
 org.jooq:jooq:3.14.4
@@ -2237,7 +2199,6 @@ org.apache.maven:maven-artifact-manager:2.2.1
 com.google.monitoring-client:contrib:1.0.7
 com.squareup.retrofit2:retrofit:2.8.1
 org.apache.karaf.features:org.apache.karaf.features.extension:4.2.1
-software.amazon.awssdk:glue:2.15.32
 commons-codec:commons-codec:1.9
 org.apache.directory.api:api-ldap-extras-aci:1.0.1
 org.apache.directory.api:api-asn1-ber:1.0.1
@@ -2392,7 +2353,6 @@ org.codehaus.cargo:cargo-core-api-generic:0.9
 org.scalikejdbc:scalikejdbc_2.13:3.5.0
 org.infinispan:infinispan-remote-query-client:9.4.16.Final
 org.glassfish.jersey.ext:jersey-mvc-freemarker:2.27
-org.python:jython:2.7.1b3
 de.svenkubiak:jBCrypt:0.4.3
 io.opentelemetry:opentelemetry-exporter-logging:1.0.0
 org.jnosql.diana:diana-column:0.0.6
@@ -2535,7 +2495,6 @@ org.testcontainers:rabbitmq:1.15.2
 io.github.openfeign:feign-core:9.7.0
 org.boofcv:boofcv-core:0.35
 org.apache.activemq:activemq-osgi:5.15.10
-org.springframework.cloud:spring-cloud-stream-binder-test:3.1.3
 org.jboss.spec.javax.batch:jboss-batch-api_1.0_spec:1.0.0.Final
 io.fabric8:kubernetes-client:5.5.0
 com.hazelcast:hazelcast-eureka-one:2.0
@@ -2566,7 +2525,6 @@ org.springframework:spring-jdbc:5.3.9
 org.jfree:jfreechart:1.5.0
 com.icegreen:greenmail:1.5.8
 com.google.zxing:core:3.4.1
-org.ops4j.pax.exam:pax-exam-container-native:4.11.0
 net.hydromatic:foodmart-data-json:0.4
 org.springframework.security:spring-security-jwt:1.1.1.RELEASE
 org.apache.druid.extensions:druid-hdfs-storage:0.17.1
@@ -2645,7 +2603,6 @@ org.springframework.security.kerberos:spring-security-kerberos-web:1.0.1.RELEASE
 org.glassfish.grizzly:grizzly-http-client:1.12
 com.google.dexmaker:dexmaker:1.2
 io.github.bonigarcia:webdrivermanager:4.3.1
-de.javakaffee:kryo-serializers:0.42
 com.github.jsonld-java:jsonld-java:0.5.1
 org.apache.calcite.avatica:avatica-core:1.17.0
 com.amazonaws:aws-java-sdk:1.11.1026
@@ -2654,9 +2611,7 @@ org.apache.druid.extensions:postgresql-metadata-storage:0.17.1
 org.apache.cxf:cxf-rt-frontend-simple:3.1.15
 com.microsoft.azure:azure-mgmt-storage:1.34.0
 org.apache.activemq:activemq-partition:5.15.10
-software.amazon.awssdk:ec2:2.2.0
 com.orbitz.consul:consul-client:1.3.7
-org.osgeo:proj4j:0.1.0
 org.boofcv:boofcv-WebcamCapture:0.35
 com.ryantenney.metrics:metrics-spring:3.1.3
 org.jnosql.diana:hazelcast-driver:0.0.6
@@ -2717,7 +2672,6 @@ com.github.codemonstur:embedded-redis:0.10.0
 org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.4.0
 io.etcd:jetcd-launcher:0.5.3
 org.codehaus.cargo:cargo-core-api-module:0.9
-info.solidsoft.spock:spock-global-unroll:0.5.1
 io.dropwizard:dropwizard-db:1.3.29
 org.thymeleaf.extras:thymeleaf-extras-springsecurity3:2.1.3.RELEASE
 io.opentelemetry:opentelemetry-exporter-jaeger:1.0.0
@@ -2747,7 +2701,6 @@ jsch:jsch:0.1.14
 org.codehaus.janino:commons-compiler-jdk:3.0.11
 org.jnosql.diana:diana-document:0.0.6
 org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-4
-org.glassfish:javax.servlet:3.1
 io.dropwizard:dropwizard-core:2.0.24
 javax.servlet.jsp.jstl:jstl-api:1.2
 com.fasterxml.jackson.module:jackson-module-jsonSchema:2.12.4
@@ -2817,7 +2770,6 @@ io.swagger.core.v3:swagger-models:2.1.2
 com.vladsch.flexmark:flexmark:0.34.60
 org.jetbrains.kotlinx:atomicfu-jvm:0.16.1
 jdiff:jdiff:1.0.9
-org.codehaus.groovy:groovy-groovydoc:3.0.8
 com.github.pathikrit:better-files_2.12:3.9.1
 org.glassfish.hk2.external:jakarta.inject:2.6.1
 org.apache.hadoop:hadoop-archives:3.1.0
@@ -2862,7 +2814,6 @@ org.keycloak:keycloak-core:6.0.0
 org.apache.activemq:apache-activemq:4.1.1
 org.dspace:dspace-services-utils:2.0.3
 com.belerweb:pinyin4j:2.5.0
-org.dspace:dspace-services-impl:2.0.3
 com.alibaba:druid-spring-boot-starter:1.2.6
 jakarta-regexp:jakarta-regexp:1.4
 javax:javaee-web-api:7.0
@@ -2871,21 +2822,17 @@ org.keycloak:keycloak-admin-client:6.0.0
 com.google.cloud.functions:functions-framework-api:1.0.2
 com.neovisionaries:nv-websocket-client:2.4
 org.apache.maven.shared:maven-repository-builder:1.0-alpha-2
-org.elasticsearch.plugin:delete-by-query:2.4.1
 de.codecentric:spring-boot-admin-server-ui-hystrix:1.4.5
-org.springframework:spring:2.0
 org.python:jython-standalone:2.5.2
 org.extrema-sistemas:tldgen:1.4.0
 rhino:js:1.6R5
 org.hibernate:hibernate-ehcache:5.4.20.Final
 javax.ccpp:ccpp:1.0
 com.momomo:momomo.com.platform.Lambda:5.0.2
-commons-discovery:commons-discovery:0.5
 com.momomo:momomo.com.platform.Return:5.0.2
 com.momomo:momomo.com.platform.db.transactional:5.0.2
 org.hibernate:hibernate-c3p0:5.4.20.Final
 org.apache.tomee:openejb-loader:7.0.3
-com.wordnik:swagger-jaxrs_2.10:1.3.8
 org.apache.maven.shared:maven-filtering:3.1.1
 com.github.dov-vlaanderen:geoserver-manager:1.8.2
 com.diboot:diboot-core-spring-boot-starter:2.2.0
@@ -2913,7 +2860,6 @@ com.momomo:momomo.com.platform.db.transactional.Hibernate:5.0.2
 com.lambdaworks:scrypt:1.4.0
 com.alibaba.cloud:spring-cloud-starter-dubbo:2.2.4.RELEASE
 io.qameta.allure:allure-testng:2.11.0
-org.bytedeco.javacpp-presets:ffmpeg-platform:4.0.2-1.4.3
 org.uma.jmetal:jmetal-problem:5.9
 de.sstoehr:har-reader:2.1.6
 org.bytedeco:javacv:1.4.3
@@ -2943,8 +2889,7 @@ org.clojure:java.jdbc:0.7.12
 org.apache.maven.plugins:maven-assembly-plugin:2.2.1
 cn.wanghaomiao:JsoupXpath:2.5.0
 org.springframework.cloud:spring-cloud-commons:3.0.3
-com.google.inject:guice:[4.0,5.0)
-io.cucumber:cucumber-java8:5.0.0-RC1
+com.google.inject:guice:5.0
 org.jetbrains.kotlin:kotlin-stdlib-js:1.4.21
 com.fasterxml.jackson:jackson-bom:2.12.4
 org.keycloak:keycloak-common:6.0.0
@@ -3175,7 +3120,6 @@ org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.4
 io.dropwizard:dropwizard-servlets:2.0.24
 io.dropwizard:dropwizard-jetty:2.0.24
 org.infinispan:infinispan-cli-client:9.4.16.Final
-org.jboss.aesh:aesh:0.66.13
 gnu.getopt:java-getopt:1.0.13
 org.jboss.remotingjmx:remoting-jmx:3.0.0.Final
 org.apache.tuscany.sdo:tuscany-sdo-lib:1.1.1
@@ -3212,7 +3156,6 @@ io.opentelemetry:opentelemetry-sdk-common:1.0.0
 io.fabric8:kubernetes-model-apps:5.5.0
 io.fabric8:kubernetes-model-common:5.5.0
 io.fabric8:kubernetes-model-core:5.5.0
-io.fabric8:kubernetes-model-flowcontrol:5.5.0
 io.fabric8:kubernetes-model-rbac:5.5.0
 io.fabric8:kubernetes-model-metrics:5.5.0
 io.fabric8:kubernetes-model-scheduling:5.5.0
@@ -3221,7 +3164,6 @@ io.fabric8:kubernetes-model-admissionregistration:5.5.0
 io.fabric8:kubernetes-model-events:5.5.0
 io.fabric8:kubernetes-model-autoscaling:5.5.0
 io.fabric8:zjsonpatch:0.3.0
-io.fabric8:kubernetes-model-networking:5.5.0
 io.fabric8:kubernetes-model-extensions:5.5.0
 io.fabric8:kubernetes-model-batch:5.5.0
 io.fabric8:kubernetes-model-policy:5.5.0
@@ -3288,7 +3230,6 @@ org.apache.nifi:nifi-framework-api:1.6.0
 org.apache.nifi:nifi-api:1.6.0
 org.apache.nifi:nifi-security-utils:1.6.0
 org.apache.nifi:nifi-properties:1.6.0
-org.apache.nifi:nifi-utils:1.6.0
 org.apache.nifi:nifi-client-dto:1.6.0
 org.apache.nifi.registry:nifi-registry-data-model:0.1.0
 org.apache.httpcomponents:httpclient-osgi:4.5.10
@@ -3299,7 +3240,6 @@ org.glassfish.tyrus:tyrus-websocket-core:1.2.1
 org.hibernate:hibernate-search-engine:5.10.3.Final
 org.apache.lucene:lucene-facet:5.5.5
 org.infinispan.protostream:protostream:4.2.3.Final
-com.squareup:protoparser:4.0.3
 org.hibernate:hibernate-search-elasticsearch:5.10.3.Final
 org.hibernate:hibernate-search-serialization-avro:5.10.3.Final
 com.wordnik:swagger-core_2.10:1.3.8
@@ -3413,7 +3353,6 @@ io.jaegertracing:jaeger-thrift:1.6.0
 io.jaegertracing:jaeger-tracerresolver:1.6.0
 io.opentracing.contrib:opentracing-tracerresolver:0.1.8
 de.huxhorn.sulky:de.huxhorn.sulky.codec:0.9.17
-de.huxhorn.sulky:de.huxhorn.sulky.io:0.9.17
 de.huxhorn.lilith:de.huxhorn.lilith.data.logging.protobuf:0.9.44
 de.huxhorn.lilith:de.huxhorn.lilith.data.logging:0.9.44
 de.huxhorn.lilith:de.huxhorn.lilith.data.eventsource:0.9.44
@@ -3496,7 +3435,6 @@ org.apache.geronimo.specs:geronimo-jsp_2.0_spec:1.0
 activesoap:jaxp-api:1.3
 jrms:jrms:1.1
 com.microsoft.azure.sdk.iot:iot-deps:0.11.2
-org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.2
 org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-inmemory:2.25.1
 org.boofcv:boofcv-swing:0.35
 com.fifesoft:rsyntaxtextarea:2.6.1
@@ -3504,7 +3442,6 @@ com.github.sarxos:webcam-capture:0.3.12
 com.nativelibs4java:bridj:0.7.0
 org.bouncycastle:bcprov-jdk15to18:1.68
 org.springframework.integration:spring-integration-test:5.4.7
-org.springframework.integration:spring-integration-test-support:5.4.7
 org.infinispan:infinispan-multimap:9.4.16.Final
 net.javacrumbs.shedlock:shedlock-core:4.21.0
 net.sourceforge.saxon:saxon:9.1.0.8
@@ -3531,29 +3468,22 @@ org.bytedeco.javacpp-presets:librealsense:1.12.1-1.4.3
 org.bytedeco.javacpp-presets:artoolkitplus:2.3.1-1.4.3
 org.bytedeco.javacpp-presets:libdc1394:2.2.5-1.4.3
 org.bytedeco.javacpp-presets:libfreenect:0.5.3-1.4.3
-androidx.exifinterface:exifinterface:1.2.0
 androidx.annotation:annotation:1.1.0
-androidx.vectordrawable:vectordrawable-animated:1.0.0
 androidx.legacy:legacy-support-core-ui:1.0.0
 androidx.slidingpanelayout:slidingpanelayout:1.0.0
-androidx.core:core:1.0.0
 androidx.collection:collection:1.0.0
 androidx.lifecycle:lifecycle-runtime:2.0.0
 androidx.lifecycle:lifecycle-common:2.0.0
 androidx.arch.core:core-common:2.0.0
 androidx.versionedparcelable:versionedparcelable:1.0.0
 androidx.legacy:legacy-support-core-utils:1.0.0
-androidx.loader:loader:1.0.0
 androidx.lifecycle:lifecycle-viewmodel:2.0.0
 androidx.arch.core:core-runtime:2.0.0
 androidx.lifecycle:lifecycle-livedata-core:2.0.0
 androidx.documentfile:documentfile:1.0.0
 androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
-androidx.print:print:1.0.0
 androidx.cursoradapter:cursoradapter:1.0.0
-androidx.coordinatorlayout:coordinatorlayout:1.0.0
 androidx.drawerlayout:drawerlayout:1.0.0
-androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
 androidx.vectordrawable:vectordrawable:1.0.0
 com.github.bumptech.glide:disklrucache:4.12.0
 com.github.bumptech.glide:annotations:4.12.0
@@ -3570,7 +3500,6 @@ com.amazonaws:aws-java-sdk-simpleworkflow:1.11.22
 com.amazonaws:aws-java-sdk-fis:1.11.1026
 com.amazonaws:aws-java-sdk-kafka:1.11.1026
 com.amazonaws:aws-java-sdk-support:1.11.1026
-com.amazonaws:aws-java-sdk-route53resolver:1.11.1026
 com.amazonaws:aws-java-sdk-shield:1.11.1026
 com.amazonaws:aws-java-sdk-autoscalingplans:1.11.1026
 com.amazonaws:aws-java-sdk-codebuild:1.11.1026
@@ -3582,15 +3511,12 @@ com.amazonaws:aws-java-sdk-fms:1.11.1026
 com.amazonaws:aws-java-sdk-cloudformation:1.11.1026
 com.amazonaws:aws-java-sdk-models:1.11.1026
 com.amazonaws:aws-java-sdk-glacier:1.11.1026
-com.amazonaws:aws-java-sdk-sagemakeredgemanager:1.11.1026
 com.amazonaws:aws-java-sdk-iot1clickprojects:1.11.1026
 com.amazonaws:aws-java-sdk-codeguruprofiler:1.11.1026
 com.amazonaws:aws-java-sdk-chime:1.11.1026
 com.amazonaws:aws-java-sdk-iotdeviceadvisor:1.11.1026
 com.amazonaws:aws-java-sdk-amplify:1.11.1026
 com.amazonaws:aws-java-sdk-appintegrations:1.11.1026
-com.amazonaws:aws-java-sdk-elasticloadbalancingv2:1.11.1026
-com.amazonaws:aws-java-sdk-detective:1.11.1026
 com.amazonaws:aws-java-sdk-servicecatalog:1.11.1026
 com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:1.11.1026
 com.amazonaws:aws-java-sdk-s3outposts:1.11.1026
@@ -3605,7 +3531,6 @@ com.amazonaws:aws-java-sdk-workmail:1.11.1026
 com.amazonaws:aws-java-sdk-ec2instanceconnect:1.11.1026
 com.amazonaws:aws-java-sdk-budgets:1.11.1026
 com.amazonaws:aws-java-sdk-sesv2:1.11.1026
-com.amazonaws:aws-java-sdk-mq:1.11.1026
 com.amazonaws:aws-java-sdk-devicefarm:1.11.1026
 com.amazonaws:aws-java-sdk-cognitoidp:1.11.1026
 com.amazonaws:aws-java-sdk-codestarconnections:1.11.1026
@@ -3613,7 +3538,6 @@ com.amazonaws:aws-java-sdk-forecastquery:1.11.1026
 com.amazonaws:aws-java-sdk-forecast:1.11.1026
 com.amazonaws:aws-java-sdk-securityhub:1.11.1026
 com.amazonaws:aws-java-sdk-personalizeruntime:1.11.1026
-com.amazonaws:aws-java-sdk-iotjobsdataplane:1.11.1026
 com.amazonaws:aws-java-sdk-appmesh:1.11.1026
 com.amazonaws:aws-java-sdk-pinpointsmsvoice:1.11.1026
 com.amazonaws:aws-java-sdk-lexruntimev2:1.11.1026
@@ -3629,7 +3553,6 @@ com.amazonaws:aws-java-sdk-ecr:1.11.1026
 com.amazonaws:aws-java-sdk-rdsdata:1.11.1026
 com.amazonaws:aws-java-sdk-batch:1.11.1026
 com.amazonaws:aws-java-sdk-frauddetector:1.11.1026
-com.amazonaws:aws-java-sdk-comprehendmedical:1.11.1026
 com.amazonaws:aws-java-sdk-textract:1.11.1026
 com.amazonaws:aws-java-sdk-finspacedata:1.11.1026
 com.amazonaws:aws-java-sdk-clouddirectory:1.11.1026
@@ -3660,7 +3583,6 @@ com.amazonaws:aws-java-sdk-ram:1.11.1026
 com.amazonaws:aws-java-sdk-apprunner:1.11.1026
 com.amazonaws:aws-java-sdk-snowball:1.11.1026
 com.amazonaws:aws-java-sdk-cloud9:1.11.1026
-com.amazonaws:aws-java-sdk-applicationcostprofiler:1.11.1026
 com.amazonaws:aws-java-sdk-datasync:1.11.1026
 com.amazonaws:aws-java-sdk-apigatewayv2:1.11.1026
 com.amazonaws:aws-java-sdk-dms:1.11.1026
@@ -3668,7 +3590,6 @@ com.amazonaws:aws-java-sdk-mwaa:1.11.1026
 com.amazonaws:aws-java-sdk-auditmanager:1.11.1026
 com.amazonaws:aws-java-sdk-cloudsearch:1.11.1026
 com.amazonaws:aws-java-sdk-qldb:1.11.1026
-com.amazonaws:aws-java-sdk-migrationhub:1.11.1026
 com.amazonaws:aws-java-sdk-directory:1.11.1026
 com.amazonaws:aws-java-sdk-ecs:1.11.1026
 com.amazonaws:aws-java-sdk-migrationhubconfig:1.11.1026
@@ -3689,7 +3610,6 @@ com.amazonaws:aws-java-sdk-groundstation:1.11.1026
 com.amazonaws:aws-java-sdk-cloudhsm:1.11.1026
 com.amazonaws:aws-java-sdk-timestreamwrite:1.11.1026
 com.amazonaws:aws-java-sdk-costexplorer:1.11.1026
-com.amazonaws:aws-java-sdk-mediastore:1.11.1026
 com.amazonaws:aws-java-sdk-lookoutmetrics:1.11.1026
 com.amazonaws:aws-java-sdk-cloudhsmv2:1.11.1026
 com.amazonaws:aws-java-sdk-iotanalytics:1.11.1026
@@ -3701,7 +3621,6 @@ com.amazonaws:aws-java-sdk-iotsecuretunneling:1.11.1026
 com.amazonaws:aws-java-sdk-rekognition:1.11.1026
 com.amazonaws:aws-java-sdk-opsworkscm:1.11.1026
 com.amazonaws:aws-java-sdk-api-gateway:1.11.1026
-com.amazonaws:aws-java-sdk-pricing:1.11.1026
 com.amazonaws:aws-java-sdk-lex:1.11.1026
 com.amazonaws:aws-java-sdk-ssoadmin:1.11.1026
 com.amazonaws:aws-java-sdk-ssmcontacts:1.11.1026
@@ -3711,7 +3630,6 @@ com.amazonaws:aws-java-sdk-gamelift:1.11.1026
 com.amazonaws:aws-java-sdk-cloudtrail:1.11.1026
 com.amazonaws:aws-java-sdk-importexport:1.11.1026
 com.amazonaws:aws-java-sdk-cognitosync:1.11.1026
-com.amazonaws:aws-java-sdk-synthetics:1.11.1026
 com.amazonaws:aws-java-sdk-honeycode:1.11.1026
 com.amazonaws:aws-java-sdk-xray:1.11.1026
 com.amazonaws:aws-java-sdk-servicequotas:1.11.1026
@@ -3723,7 +3641,6 @@ com.amazonaws:aws-java-sdk-healthlake:1.11.1026
 com.amazonaws:aws-java-sdk-fsx:1.11.1026
 com.amazonaws:aws-java-sdk-ec2:1.11.277
 com.amazonaws:aws-java-sdk-identitystore:1.11.1026
-com.amazonaws:aws-java-sdk-ssooidc:1.11.1026
 com.amazonaws:aws-java-sdk-worklink:1.11.1026
 com.amazonaws:aws-java-sdk-ivs:1.11.1026
 com.amazonaws:aws-java-sdk-connectcontactlens:1.11.1026
@@ -3735,14 +3652,12 @@ com.amazonaws:aws-java-sdk-kinesisanalyticsv2:1.11.1026
 com.amazonaws:aws-java-sdk-signer:1.11.1026
 com.amazonaws:aws-java-sdk-servermigration:1.11.1026
 com.amazonaws:aws-java-sdk-neptune:1.11.1026
-com.amazonaws:aws-java-sdk-elasticinference:1.11.1026
 com.amazonaws:aws-java-sdk-connect:1.11.1026
 com.amazonaws:aws-java-sdk-config:1.11.1026
 com.amazonaws:aws-java-sdk-redshiftdataapi:1.11.1026
 com.amazonaws:aws-java-sdk-eks:1.11.1026
 com.amazonaws:aws-java-sdk-braket:1.11.1026
 com.amazonaws:aws-java-sdk-applicationinsights:1.11.1026
-com.amazonaws:aws-java-sdk-iam:1.11.1026
 com.amazonaws:aws-java-sdk-accessanalyzer:1.11.1026
 com.amazonaws:aws-java-sdk-redshift:1.11.1026
 com.amazonaws:aws-java-sdk-elasticache:1.11.1026
@@ -3755,17 +3670,14 @@ com.amazonaws:aws-java-sdk-ioteventsdata:1.11.1026
 com.amazonaws:aws-java-sdk-mediaconvert:1.11.1026
 com.amazonaws:aws-java-sdk-resourcegroupstaggingapi:1.11.1026
 com.amazonaws:aws-java-sdk-discovery:1.11.1026
-com.amazonaws:aws-java-sdk-nimblestudio:1.11.1026
 com.amazonaws:aws-java-sdk-elasticsearch:1.11.1026
 com.amazonaws:aws-java-sdk-directconnect:1.11.1026
 com.amazonaws:aws-java-sdk-resourcegroups:1.11.1026
 com.amazonaws:aws-java-sdk-macie2:1.11.1026
-com.amazonaws:aws-java-sdk-codestarnotifications:1.11.1026
 com.amazonaws:aws-java-sdk-customerprofiles:1.11.1026
 com.amazonaws:aws-java-sdk-prometheus:1.11.1026
 com.amazonaws:aws-java-sdk-marketplacecatalog:1.11.1026
 com.amazonaws:aws-java-sdk-eventbridge:1.11.1026
-com.amazonaws:aws-java-sdk-simpledb:1.11.1026
 com.amazonaws:aws-java-sdk-amplifybackend:1.11.1026
 com.amazonaws:aws-java-sdk-elastictranscoder:1.11.1026
 com.amazonaws:aws-java-sdk-lookoutequipment:1.11.1026
@@ -3774,7 +3686,6 @@ com.amazonaws:aws-java-sdk-mobile:1.11.1026
 com.amazonaws:aws-java-sdk-datapipeline:1.11.1026
 com.amazonaws:aws-java-sdk-imagebuilder:1.11.1026
 com.amazonaws:aws-java-sdk-iotsitewise:1.11.1026
-com.amazonaws:aws-java-sdk-marketplaceentitlement:1.11.1026
 com.amazonaws:aws-java-sdk-costandusagereport:1.11.1026
 com.amazonaws:aws-java-sdk-ssm:1.11.1026
 com.amazonaws:aws-java-sdk-emr:1.11.1026
@@ -3788,7 +3699,6 @@ com.amazonaws:aws-java-sdk-location:1.11.1026
 com.amazonaws:aws-java-sdk-storagegateway:1.11.1026
 com.amazonaws:aws-java-sdk-sagemakerfeaturestoreruntime:1.11.1026
 com.amazonaws:aws-java-sdk-dax:1.11.1026
-com.amazonaws:aws-java-sdk-route53:1.11.277
 com.amazonaws:aws-java-sdk-lakeformation:1.11.1026
 com.amazonaws:aws-java-sdk-workspaces:1.11.1026
 com.amazonaws:aws-java-sdk-personalize:1.11.1026
@@ -3864,7 +3774,6 @@ org.apache.jclouds.provider:serverlove-z1-man:2.0.0
 org.apache.jclouds.provider:rackspace-cloudservers-uk:2.0.0
 org.apache.jclouds.provider:elastichosts-lon-b:2.0.0
 org.apache.jclouds.provider:rackspace-cloudservers-us:2.0.0
-org.apache.jclouds.provider:openhosting-east1:2.0.0
 org.apache.jclouds.provider:google-compute-engine:2.0.0
 org.apache.jclouds.common:googlecloud:2.0.0
 org.apache.jclouds.provider:gogrid:2.0.0
@@ -3882,7 +3791,6 @@ org.apache.jclouds.provider:rackspace-cloudloadbalancers-uk:1.9.1
 org.apache.jclouds.provider:rackspace-clouddns-us:1.9.1
 com.microsoft.azure:azure-eventhubs:3.3.0
 ai.h2o:deepwater-backend-api:1.0.4
-ai.h2o:h2o-tree-api:0.3.9
 org.kohsuke.metainf-services:metainf-services:1.7
 com.alipay.sofa:bolt:1.6.2
 com.alipay.sofa.common:sofa-common-tools:1.0.12
@@ -3961,7 +3869,6 @@ org.xerial.thirdparty:nestedvm:1.0
 org.camunda.commons:camunda-commons-typed-values:1.4.0
 org.camunda.commons:camunda-commons-utils:1.4.0
 org.camunda.commons:camunda-commons-logging:1.4.0
-org.camunda.bpm.model:camunda-dmn-model:7.8.0
 org.camunda.bpm.model:camunda-xml-model:7.8.0
 org.camunda.bpm.dmn:camunda-engine-feel-api:7.8.0
 de.odysseus.juel:juel-spi:2.2.7
@@ -3975,7 +3882,6 @@ org.scalatest:scalatest-shouldmatchers_2.12:3.2.2
 org.scalatest:scalatest-featurespec_2.12:3.2.2
 org.scalatest:scalatest-freespec_2.12:3.2.2
 org.scalatest:scalatest-funspec_2.12:3.2.2
-org.scalatest:scalatest-funsuite_2.12:3.2.2
 org.scalatest:scalatest-refspec_2.12:3.2.2
 com.alicp.jetcache:jetcache-autoconfigure:2.5.11
 org.jgroups.kubernetes:jgroups-kubernetes:1.0.6.Final
@@ -4093,13 +3999,11 @@ io.zipkin.brave:brave:5.13.3
 io.zipkin.reporter2:zipkin-reporter-brave:2.16.3
 io.zipkin.reporter2:zipkin-reporter:2.16.3
 io.zipkin.zipkin2:zipkin:2.23.2
-org.jetbrains.kotlin:kotlin-bom:1.4.21
 io.opentelemetry:opentelemetry-semconv:1.0.0-alpha
 com.linecorp.armeria:armeria-grpc-protocol:1.0.0
 com.netflix.netflix-commons:netflix-eventbus:0.3.0
 com.netflix.netflix-commons:netflix-infix:0.3.0
 com.github.vlsi.compactmap:compactmap:1.2.1
-com.github.andrewoma.dexx:dexx-collections:0.2
 com.netflix.rxjava:rxjava-math:0.20.6
 de.jkeylockmanager:jkeylockmanager:2.1.0
 net.jodah:expiringmap:0.5.8
