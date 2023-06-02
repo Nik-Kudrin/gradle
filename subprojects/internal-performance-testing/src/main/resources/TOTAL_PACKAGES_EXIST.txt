@@ -969,7 +969,6 @@ org.apache.johnzon:johnzon-core:1.2.1
 jakarta.json:jakarta.json-api:1.1.6
 com.oracle.ojdbc:ons:19.3.0.0
 com.google.api.grpc:proto-google-cloud-video-intelligence-v1p3beta1:0.88.0
-org.graalvm.truffle:truffle-nfi:19.3.1
 com.github.jnr:jnr-constants:0.9.9
 com.google.auth:google-auth-library-oauth2-http:0.25.2
 dom4j:dom4j:1.6.1
@@ -2690,7 +2689,6 @@ org.apache.karaf.shell:org.apache.karaf.shell.console:4.2.6
 io.projectreactor:reactor-scala-extensions_2.12:0.8.0
 org.infinispan:infinispan-tasks:9.4.16.Final
 au.com.dius:pact-jvm-consumer-junit_2.11:3.5.0
-org.ehcache:ehcache-clustered:3.8.1
 com.pszymczyk.consul:embedded-consul:2.0.0
 org.datanucleus:datanucleus-maven-plugin:4.0.1
 org.apache.activemq:activemq-camel:5.15.10
@@ -3537,7 +3535,6 @@ androidx.exifinterface:exifinterface:1.2.0
 androidx.annotation:annotation:1.1.0
 androidx.vectordrawable:vectordrawable-animated:1.0.0
 androidx.legacy:legacy-support-core-ui:1.0.0
-androidx.interpolator:interpolator:1.0.0
 androidx.slidingpanelayout:slidingpanelayout:1.0.0
 androidx.core:core:1.0.0
 androidx.collection:collection:1.0.0
@@ -3556,7 +3553,6 @@ androidx.print:print:1.0.0
 androidx.cursoradapter:cursoradapter:1.0.0
 androidx.coordinatorlayout:coordinatorlayout:1.0.0
 androidx.drawerlayout:drawerlayout:1.0.0
-androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
 androidx.asynclayoutinflater:asynclayoutinflater:1.0.0
 androidx.vectordrawable:vectordrawable:1.0.0
 com.github.bumptech.glide:disklrucache:4.12.0
