@@ -281,7 +281,6 @@ io.prometheus:simpleclient_pushgateway:0.7.0
 com.sun.activation:javax.activation:1.2.0
 com.uwyn:jhighlight:1.0
 net.jqwik:jqwik-time:1.5.0
-com.github.joshelser:dropwizard-metrics-hadoop-metrics2-reporter:0.1.2
 com.google.oauth-client:google-oauth-client-java6:1.31.4
 javolution:javolution:5.5.1
 org.easymock:easymock:4.3
@@ -1285,7 +1284,6 @@ com.google.protobuf:protobuf-java:3.9.1
 org.codehaus.plexus:plexus-velocity:1.1.7
 com.google.zetasql:zetasql-jni-channel:2020.10.1
 org.codehaus.groovy:groovy-templates:3.0.8
-org.elasticsearch.test:framework:7.9.2
 com.vladsch.flexmark:flexmark-ext-typographic:0.34.60
 net.jqwik:jqwik-web:1.5.0
 com.google.api.grpc:proto-google-cloud-bigtable-v2:1.22.0
@@ -1853,7 +1851,6 @@ us.fatehi:schemacrawler-api:16.10.1
 io.agroal:agroal-pool:1.9
 org.asciidoctor:asciidoctorj:2.4.3
 org.apache.beam:beam-vendor-grpc-1_26_0:0.3
-org.springframework.security:spring-security-saml2-service-provider:5.2.0.RELEASE
 com.github.fge:btf:1.2
 org.apache.tomcat.embed:tomcat-embed-websocket:9.0.41
 org.apache.bcel:bcel:6.3.1
@@ -1907,7 +1904,6 @@ org.hibernate.validator:hibernate-validator:7.0.1.Final
 io.micrometer:micrometer-core:1.7.2
 software.amazon.awssdk:utils:2.2.0
 org.ow2.asm:asm-util:9.1
-org.apache.arrow:arrow-memory:0.11.0
 com.vladsch.flexmark:flexmark-profile-pegdown:0.34.60
 org.glassfish.hk2:hk2-runlevel:2.6.1
 jakarta.activation:jakarta.activation-api:2.0.1
@@ -2169,7 +2165,6 @@ org.twister2:tset-java:0.6.0
 org.apache.spark:spark-kvstore_2.12:3.1.2
 jfree:jcommon:1.0.0
 org.apache.beam:beam-model-pipeline:2.28.0
-org.elasticsearch:elasticsearch:7.9.2
 org.codehaus.plexus:plexus-utils:3.4.0
 com.google.api.grpc:proto-google-cloud-vision-v1p2beta1:1.81.3
 com.oracle.ojdbc:osdt_core:19.3.0.0
@@ -2811,7 +2806,6 @@ com.googlecode.netlib-java:netlib-java:1.1
 org.dspace:dspace-services-api:2.0.3
 org.glassfish.jersey.containers:jersey-container-jetty-http:2.26
 org.keycloak:keycloak-core:6.0.0
-org.apache.activemq:apache-activemq:4.1.1
 org.dspace:dspace-services-utils:2.0.3
 com.belerweb:pinyin4j:2.5.0
 com.alibaba:druid-spring-boot-starter:1.2.6
@@ -2894,7 +2888,6 @@ org.jetbrains.kotlin:kotlin-stdlib-js:1.4.21
 com.fasterxml.jackson:jackson-bom:2.12.4
 org.keycloak:keycloak-common:6.0.0
 com.google.protobuf:protobuf-javalite:3.17.2
-org.apache.tika:tika-langdetect:1.13
 com.optimaize.languagedetector:language-detector:0.5
 net.arnx:jsonic:1.2.11
 org.apache.tika:tika-batch:1.13
@@ -3014,7 +3007,6 @@ org.kie:kie-internal:7.6.0.Final
 org.apache.kafka:kafka_2.10:0.8.0
 com.yammer.metrics:metrics-annotation:2.2.0
 org.apache.hbase:hbase-hadoop2-compat:2.0.0-alpha4
-org.linkedin:org.linkedin.zookeeper-impl:1.4.0
 org.linkedin:org.linkedin.util-core:1.7.1
 org.linkedin:org.linkedin.util-groovy:1.7.1
 org.fusesource.hawtbuf:hawtbuf-proto:1.11
@@ -3028,7 +3020,6 @@ org.apache.calcite:calcite-linq4j:1.18.0
 org.apache.calcite:calcite-core:1.18.0
 com.nimbusds:content-type:2.1
 io.vertx:vertx-core:3.9.0
-org.apache.curator:apache-curator:2.7.1
 org.eclipse.jetty.orbit:javax.mail.glassfish:1.4.1.v201005082020
 org.eclipse.jetty.orbit:javax.activation:1.1.0.v201105071233
 org.eclipse.jetty:jetty-quickstart:9.4.19.v20190610
@@ -3208,7 +3199,6 @@ org.apache.maven.mercury:mercury-repo-cache-fs:1.0.0-alpha-2
 org.apache.maven.mercury:mercury-md-sat:1.0.0-alpha-4-SNAPSHOT
 org.sat4j:org.sat4j.pb:2.0.4
 org.sat4j:org.sat4j.core:2.0.4
-org.sonatype.mercury:mercury-mp3-api:1.0-alpha-1
 org.apache.maven:maven-mercury:3.0-alpha-1
 com.sun.istack:istack-commons-tools:4.0.1
 com.sun.xml.dtd-parser:dtd-parser:1.4.4
@@ -3476,15 +3466,8 @@ androidx.lifecycle:lifecycle-runtime:2.0.0
 androidx.lifecycle:lifecycle-common:2.0.0
 androidx.arch.core:core-common:2.0.0
 androidx.versionedparcelable:versionedparcelable:1.0.0
-androidx.legacy:legacy-support-core-utils:1.0.0
-androidx.lifecycle:lifecycle-viewmodel:2.0.0
 androidx.arch.core:core-runtime:2.0.0
-androidx.lifecycle:lifecycle-livedata-core:2.0.0
 androidx.documentfile:documentfile:1.0.0
-androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
-androidx.cursoradapter:cursoradapter:1.0.0
-androidx.drawerlayout:drawerlayout:1.0.0
-androidx.vectordrawable:vectordrawable:1.0.0
 com.github.bumptech.glide:disklrucache:4.12.0
 com.github.bumptech.glide:annotations:4.12.0
 androidx.fragment:fragment:1.0.0
