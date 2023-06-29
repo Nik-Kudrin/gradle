@@ -72,7 +72,6 @@ com.abissell:java-log-util:0.1.0
 com.ableneo.liferay:com.ableneo.liferay.db.setup.core:7.3.605
 com.accessgatelabs.oss:response-builder:1.2.4
 com.acervera.osm4scala:osm4scala-spark2_2.11:1.0.11
-com.acervera.osm4scala:osm4scala-spark3-shaded_2.12:1.0.11
 com.actelion.research:map-reduce-exec-spark:1.1.3
 com.actionsky:txle-transaction:2.19.11.0
 com.acxiom:metalus-kafka_2.12-spark_2.4:1.9.4
@@ -94,7 +93,6 @@ com.adobe.testing:s3mock-testsupport-common:2.11.0
 com.adobe.xmp:xmpcore:6.1.11
 com.adonax:audiocue:2.1.0
 com.adrianhurt:play-bootstrap-core_2.10:1.2-P24
-com.aeontronix.kryptotek:kryptotek-rest-server-jaxrs:1.0.0-beta1
 com.aerospike:aerospike-client:6.1.10
 com.aeuok:field-autowired:1.0.0
 com.afrunt.imdb:imdb-tsv-iterator:1.0.10
@@ -123,7 +121,6 @@ com.alibaba.blink:flink-connector-kafka-0.10_2.11:1.5.1
 com.alibaba.blink:flink-metrics-slf4j:1.5.1
 com.alibaba.blink:flink-queryable-state-runtime_2.11:1.5.1
 com.alibaba.blink:flink-scala_2.11:1.5.1
-com.alibaba.calcite:calcite-core:1.17.0-flink-r3
 com.alibaba.cloud:spring-cloud-alibaba-nacos-config-server:2.2.0.RELEASE
 com.alibaba.cloud:spring-cloud-alibaba-seata:2.2.0.RELEASE
 com.alibaba.cloud:spring-cloud-starter-dubbo:2021.1
@@ -148,7 +145,6 @@ com.alibaba.nacos:nacos-encryption-plugin:2.2.3
 com.alibaba.otter:manager.deployer:4.2.18
 com.alibaba.spring:spring-context-support:1.0.11
 com.alibaba:druid-spring-boot-starter:1.2.18
-com.alibaba:druid:1.2.18
 com.alibaba:dubbo-filter-validation:2.6.12
 com.alibaba:dubbo-monitor-api:2.6.12
 com.alibaba:easy-retry-common:1.0.0.RC4
@@ -186,7 +182,6 @@ com.alipay.sofa:registry-server-session:5.4.3
 com.alipay.sofa:registry-store-jraft:5.4.3
 com.alipay.sofa:registry-test:5.4.3
 com.alipay.sofa:rpc-grpc-impl:1.3.13
-com.aliyun.dfs:aliyun-sdk-dfs:2.2.0
 com.aliyun.emr:emr-ons_2.11:2.2.0
 com.aliyun.fc.runtime:fc-java-core:1.4.1
 com.aliyun.fc.runtime:fc-java-event:1.2.0
@@ -257,7 +252,6 @@ com.amazonaws:aws-java-sdk-appregistry:1.12.481
 com.amazonaws:aws-java-sdk-apprunner:1.12.480
 com.amazonaws:aws-java-sdk-appstream:1.12.479
 com.amazonaws:aws-java-sdk-appsync:1.12.481
-com.amazonaws:aws-java-sdk-arczonalshift:1.12.481
 com.amazonaws:aws-java-sdk-athena:1.12.480
 com.amazonaws:aws-java-sdk-auditmanager:1.12.481
 com.amazonaws:aws-java-sdk-augmentedairuntime:1.12.481
@@ -334,7 +328,6 @@ com.amazonaws:aws-java-sdk-dms:1.12.481
 com.amazonaws:aws-java-sdk-docdb:1.12.480
 com.amazonaws:aws-java-sdk-docdbelastic:1.12.481
 com.amazonaws:aws-java-sdk-drs:1.12.481
-com.amazonaws:aws-java-sdk-dynamodb:1.12.481
 com.amazonaws:aws-java-sdk-ebs:1.12.479
 com.amazonaws:aws-java-sdk-ec2instanceconnect:1.12.481
 com.amazonaws:aws-java-sdk-ecr:1.12.481
@@ -366,7 +359,6 @@ com.amazonaws:aws-java-sdk-gamelift:1.12.481
 com.amazonaws:aws-java-sdk-gamesparks:1.12.481
 com.amazonaws:aws-java-sdk-glacier:1.12.481
 com.amazonaws:aws-java-sdk-globalaccelerator:1.12.481
-com.amazonaws:aws-java-sdk-glue:1.12.481
 com.amazonaws:aws-java-sdk-gluedatabrew:1.12.481
 com.amazonaws:aws-java-sdk-greengrass:1.12.481
 com.amazonaws:aws-java-sdk-greengrassv2:1.12.481
@@ -397,7 +389,6 @@ com.amazonaws:aws-java-sdk-iotsecuretunneling:1.12.481
 com.amazonaws:aws-java-sdk-iotsitewise:1.12.481
 com.amazonaws:aws-java-sdk-iotthingsgraph:1.12.481
 com.amazonaws:aws-java-sdk-iottwinmaker:1.12.481
-com.amazonaws:aws-java-sdk-iotwireless:1.12.481
 com.amazonaws:aws-java-sdk-ivs:1.12.479
 com.amazonaws:aws-java-sdk-ivschat:1.12.481
 com.amazonaws:aws-java-sdk-ivsrealtime:1.12.481
@@ -518,7 +509,6 @@ com.amazonaws:aws-java-sdk-savingsplans:1.12.481
 com.amazonaws:aws-java-sdk-scheduler:1.12.481
 com.amazonaws:aws-java-sdk-schemas:1.12.481
 com.amazonaws:aws-java-sdk-secretsmanager:1.12.481
-com.amazonaws:aws-java-sdk-securityhub:1.12.481
 com.amazonaws:aws-java-sdk-securitylake:1.12.481
 com.amazonaws:aws-java-sdk-serverlessapplicationrepository:1.12.481
 com.amazonaws:aws-java-sdk-servermigration:1.12.481
@@ -621,7 +611,6 @@ com.artfii.amq:amq-pro:0.0.3-snapshot
 com.artfii.amq:spring-boot:0.0.3-snapshot
 com.asayama.gwt.angular:gwt-angular-http:0.2.4
 com.aspectran:aspectran-with-freemarker:7.3.0
-com.assembla.scala-incubator:graph-core_2.10:1.10.0
 com.assist4j:assist4j-sequence:1.1.30
 com.astutebits:jsquint-pmd:0.3.0
 com.atlassian.asap:asap-test-common:2.26.0
@@ -655,7 +644,6 @@ com.avast:sst-http4s-client-blaze_2.12:0.1.46
 com.avides.spring:springboot-prometheus-client:0.6.0-RC2
 com.avsystem.scex:scex-macros_2.12.10:1.22.10
 com.axibase:aggregation-log-filter-log4j2:3.2.1
-com.azavea.geotrellis:geotrellis-raster_2.11:0.10.2
 com.azure.resourcemanager:azure-resourcemanager-iothub:1.2.0-beta.3
 com.azure.resourcemanager:azure-resourcemanager-nginx:1.0.0-beta.2
 com.azure.resourcemanager:azure-resourcemanager-reservations:1.0.0-beta.1
@@ -678,7 +666,6 @@ com.azure:azure-security-keyvault-administration:4.1.2
 com.azure:azure-storage-blob:12.23.0-beta.1
 com.azure:azure-storage-common:12.22.0-beta.1
 com.azure:azure-storage-internal-avro:12.8.0-beta.1
-com.b2wdigital:restql-core:2.1.7
 com.b3dgs.lionengine:lionengine-audio-adplug:9.0.5
 com.baidu.iot:iotcore-log-definition:1.0.3
 com.baidu.iot:iotcore-logger-sdk:1.0.4
@@ -794,12 +781,10 @@ com.clearspring.analytics:stream:2.9.8
 com.clever-cloud.pulsar4s:pulsar4s-core_2.13:2.9.0
 com.clevergang.libs:fluent-spring-jdbctemplate:1.0.0
 com.clickhouse:clickhouse-benchmark:0.3.2-patch2
-com.clickhouse:clickhouse-client:0.4.6
 com.clickhouse:clickhouse-data:0.4.6
 com.clickhouse:clickhouse-http-client:0.4.6
 com.cloudera.oryx:oryx-api:2.8.0
 com.cloudhopper:ch-commons-ssl:1.0.0
-com.cloudhopper:ch-tokyocabinet-java:1.24.0
 com.cloudimpl.outstack:outstack-spring-repo:4.0.551
 com.clouway.oauth2:jwt-java-client-okhttp:0.0.1
 com.clouway.testing:cloud-firestore-testing:0.0.8
@@ -866,7 +851,6 @@ com.cottsoft.thrift.framework:thrift-framework:0.0.1
 com.couchbase.client:couchbase-spring-cache:2.1.0
 com.couchbase.client:encryption:2.0.1
 com.couchbase.client:java-client:3.4.6
-com.couchbase.mock:CouchbaseMock:1.5.25
 com.coverity.security:coverity-escapers:1.1.1
 com.coviu:coviu-sdk:0.1.0
 com.coxautodata:waimak-configuration_2.12:2.6
@@ -1006,7 +990,6 @@ com.easemob.im:push-sdk-api:0.1.2.Final
 com.easemob.im:push-sdk-reactor-api:0.1.2.Final
 com.easycodebox:easycode-auth-model:0.3.0
 com.eclipsesource.j2v8:j2v8_win32_x86:4.6.0
-com.eclipsesource.j2v8:j2v8_win32_x86_64:4.6.0
 com.eclipsesource.minimal-json:minimal-json:0.9.5
 com.ecwid.consul:consul-api:1.4.5
 com.edgeros.cloud:acopay-sdk-java:1.0.0
@@ -1119,7 +1102,6 @@ com.flickr4java:flickr4java:3.0.8
 com.flipkart.zjsonpatch:zjsonpatch:0.4.14
 com.floragunn:search-guard-ssl:7.0.0-35.0.0-beta1
 com.flowkode:jpa-reserved-validator:1.4.0
-com.flowkode:terrastate:1.1
 com.flowtick:graphs_2.13:0.5.0
 com.flowyun:rest-proxy-spring-boot-starter:1.0.4
 com.fluxtion:runtime:9.0.6
@@ -1205,7 +1187,6 @@ com.github.adedayo.eclipse.sdk:org.eclipse.swt.gtk.linux.x86:3.104.0
 com.github.adedayo.eclipse.sdk:org.eclipse.text:3.5.400
 com.github.adedayo.eclipse.sdk:org.eclipse.ui.cocoa:1.1.100
 com.github.adedayo.intellij.sdk:IntelliLang-xml:142.1
-com.github.adedayo.intellij.sdk:idea-ui:142.1
 com.github.adedayo.intellij.sdk:java-runtime:142.1
 com.github.adedayo.intellij.sdk:testng_rt:142.1
 com.github.agadar.javacommander:javacommander:2.0.0
@@ -1530,7 +1511,6 @@ com.github.jpaoletti:jpm-struts1-jar:1.3.0
 com.github.jpmorganchase.sandboni:sandboni-engine:1.1.44
 com.github.jpmsilva.jsystemd:jsystemd-spring-boot-starter:2.0.1
 com.github.jreddit:jreddit:1.0.3
-com.github.jsonld-java:jsonld-java:0.13.4
 com.github.jsqlparser:jsqlparser:4.6
 com.github.julien-truffaut:monocle-macro_sjs0.6_2.13.0-RC2:1.6.0-M5
 com.github.julien-truffaut:monocle-refined_3.0.0-RC1:3.0.0-M3
@@ -1587,7 +1567,6 @@ com.github.ljtfreitas:java-restify-netflix-kubernetes-service-discovery:2.1.0
 com.github.lmnet:core_sjs0.6_2.12:0.1.0
 com.github.lolgab:munit-snapshot-native_native0.4_2.13:0.0.1
 com.github.lsund:pgnparser_2.12:1.0.0
-com.github.luben:zstd-jni:1.5.5-3
 com.github.lucadruda:iotc-device-client:2.1.2
 com.github.luccappellaro:jzopfli:0.0.1
 com.github.luues:commons-applicationcontext:1.2.1.RELEASE
@@ -1600,7 +1579,6 @@ com.github.marchenkoprojects:prettyjdbc:0.4
 com.github.marcinzh:skutek-core_2.13:0.16.0
 com.github.markash:components-i18n:0.3.1
 com.github.marschall:catalina-jfr:0.1.0
-com.github.martinpaljak:apdu4j-tool:21.05.06
 com.github.matheusviegas:configloader:1.0.0
 com.github.mathiasritter:weblaf-plugin:1.2.10
 com.github.mauricio:db-async-common_2.11:0.2.21
@@ -1669,7 +1647,6 @@ com.github.philcali:lmxml-markdown_2.9.1-1:0.1.2
 com.github.philcali:scalendar_2.8.1:0.1.2
 com.github.piaohao:act-jfinal:1.0
 com.github.pjfanning:excel-streaming-reader:4.0.5
-com.github.pjfanning:jersey-json:1.20
 com.github.pjfanning:poi-shared-strings:2.5.6
 com.github.plokhotnyuk.jsoniter-scala:jsoniter-scala-core_2.13.0-RC1:0.46.3
 com.github.plokhotnyuk.rtree2d:rtree2d-core_2.11:0.11.0
@@ -1808,7 +1785,6 @@ com.github.tsingxiao:unionj-generator-frontend:1.0.1
 com.github.tsingxiao:unionj-generator-service:1.0.1
 com.github.tsouza.promises:rxjava-promises-core:1.0.0
 com.github.txxs:common-response:1.0.1
-com.github.ulisesbocchio:jasypt-spring-boot-demo:1.7
 com.github.unknownnpc.psw:advcash_2.12:0.0.5
 com.github.valfirst.browserup-proxy:browserup-proxy-mitm:2.2.10
 com.github.vbmacher:java-cup-runtime:11b-20160615-2
@@ -1909,7 +1885,6 @@ com.gluonhq:charm-down-plugin-local-notifications:3.8.6
 com.gluonhq:charm-down-plugin-runtime-args:3.8.6
 com.gluonhq:charm-down-plugin-vibration:3.8.6
 com.gmrodrigues:dirutils:0.1
-com.gojek.parquet:parquet-avro:1.11.9
 com.gomcarter.frameworks:cacheable-redis-starter:2.0.10
 com.google.android.apps.muzei:muzei-api:2.0
 com.google.android.tools:dx:1.7
@@ -2016,7 +1991,6 @@ com.google.apis:google-api-services-tasks:v1-rev20230401-2.0.0
 com.google.apis:google-api-services-transcoder:v1beta1-rev20201111-1.30.10
 com.google.appengine.tools:appengine-gcs-client:0.8.3
 com.google.appengine.tools:appengine-pipeline:0.2.13
-com.google.appengine:appengine-api-stubs:2.0.14
 com.google.appengine:appengine-dev-jdk-overrides-sdk:1.9.38
 com.google.appengine:appengine-remote-api:2.0.14
 com.google.appengine:appengine-testing:2.0.14
@@ -2148,14 +2122,12 @@ com.google.protobuf:protobuf-java-util:4.0.0-rc-2
 com.google.protobuf:protobuf-java:4.0.0-rc-2
 com.google.protobuf:protobuf-javalite:4.0.0-rc-2
 com.google.re2j:re2j:1.7
-com.google.template:soy:2022-10-26
 com.google.testing.compile:compile-testing:0.21.0
 com.google.truth.extensions:truth-java8-extension:1.1.4
 com.google.truth:truth:1.1.4
 com.google.uzaygezen:uzaygezen-core:0.2
 com.google.zetasql:zetasql-client:2023.04.1
 com.google.zetasql:zetasql-jni-channel:2023.04.1
-com.google.zetasql:zetasql-types:2023.04.1
 com.google.zxing:core:3.5.1
 com.google.zxing:javase:3.5.1
 com.googlecode.blaisemath:coda-app:0.1.8
@@ -2261,7 +2233,6 @@ com.healthmarketscience.jackcess:jackcess:4.0.5
 com.healthy-chn.cloud:healthy-common-redis:1.3.8.M3
 com.healthy-chn.security:healthy-app:1.2.1.RELEASE
 com.helger:profiler:1.1.1
-com.heliosapm.utils:heliosutils:1.2
 com.helpshift:android-helpshift-support-sdk:7.4.0-support
 com.herminiogarcia:label2thesaurus_3:0.1.1
 com.heroku.platform.api:model-boilerplate-generator_2.10:0.0.3
@@ -2286,7 +2257,6 @@ com.htyleo.extsort:extsort:1.0.0
 com.htyleo:external-sort:1.0.0
 com.huawei.openstack4j.connectors:openstack4j-okhttp:1.0.26
 com.huaweicloud.dws:dws-connector-flink_2.11_1.12:1.0.3
-com.huaweicloud.sdk:huaweicloud-sdk-apig:3.1.42
 com.huaweicloud.sdk:huaweicloud-sdk-sis:3.1.42
 com.huaweicloud.sermant:spring-cloud-registry-plugin:1.0.3
 com.huaweicloud:esdk-obs-java:3.23.3.1
@@ -2311,7 +2281,6 @@ com.ibm.cloud:case-management:0.8.0
 com.ibm.cloud:data-virtualization-on-cloud-examples:0.0.7
 com.ibm.cloud:ssl-context-spring-boot-starter:0.0.15
 com.ibm.cloud:waf-rules-api:0.21.3
-com.ibm.db2:jcc:11.5.8.0
 com.ibm.icu:icu4j:73.1
 com.ibm.informix:jdbc:4.50.10
 com.ibm.sbt:com.ibm.sbt.core.test:1.1.12.20161007-1200
@@ -2343,7 +2312,6 @@ com.innoventsolutions.birt.runtime:org.eclipse.update.configurator_3.4.0.v201805
 com.inspire-software.lib.dto.geda:geda.core-ptest:2.1.2
 com.instaclustr:ic-sstable-tools-4.1.0:1.0.0
 com.intel.analytics.bigdl.core.native.bigquant:bigquant-java-x86_64-linux:2.3.0
-com.intel.analytics.bigdl.core.native.opencv:opencv-java-mac:2.3.0
 com.intel.analytics.bigdl.spark-version:2.0-SPARK_2.1:0.7.2
 com.intel.analytics.bigdl:dist-spark-2.0.2-scala-2.11.8-linux64:0.2.0
 com.intel.qat:parquet-hive-storage-handler:1.10.0
@@ -2523,7 +2491,6 @@ com.liferay:com.liferay.commerce.punchout.oauth2.provider.rest:4.0.12
 com.liferay:com.liferay.content.dashboard.document.library.impl:1.0.34
 com.liferay:com.liferay.depot.service:3.0.50
 com.liferay:com.liferay.diff.impl:1.0.5
-com.liferay:com.liferay.dynamic.data.mapping.data.provider.impl:5.0.27
 com.liferay:com.liferay.dynamic.data.mapping.type.select:3.0.2
 com.liferay:com.liferay.frontend.theme.contributor.extender:6.0.48
 com.liferay:com.liferay.gogo.shell.logging:1.0.1
@@ -2542,7 +2509,6 @@ com.liferay:com.liferay.remote.app.service:2.0.28
 com.liferay:com.liferay.sharepoint.rest.repository:5.0.25
 com.liferay:com.liferay.social.bookmarks.taglib:4.1.9
 com.liferay:com.liferay.wiki.uad:6.0.12
-com.liferay:org.apache.axis:1.4.LIFERAY-PATCHED-6
 com.lightbend.akka:akka-projection-jdbc_2.13:1.4.2
 com.lightbend.akka:akka-stream-alpakka-aws-event-bridge_2.12:6.0.1
 com.lightbend.akka:akka-stream-alpakka-ftp_2.11:2.0.2
@@ -2634,7 +2600,6 @@ com.lucidchart:opentracing-httpasyncclient:0.1
 com.luketebbs.uniform:interpreter-play28_2.13:5.0.0-RC6
 com.lumiomedical:lumio-vault:0.10
 com.lwohvye:eladmin-generator:3.1.0
-com.lwohvye:unicorn-core:3.2.0
 com.lzhpo:logging-tracer-webclient-adapter:3.0.2
 com.m3:java-client_2.10:2.3
 com.m3:octoparts-scala-ws-client_2.10:2.6
@@ -2697,7 +2662,6 @@ com.michael-bull.kotlin-result:kotlin-result:1.1.18
 com.microsoft.azure.cognitiveservices:azure-cognitiveservices-imagesearch:1.0.2
 com.microsoft.azure.iot:iothub-react_2.12:0.8.0
 com.microsoft.azure.kusto.v2019_05_15:azure-mgmt-kusto:1.0.0-beta
-com.microsoft.azure.network.v2019_04_01:azure-mgmt-network:1.0.0-beta
 com.microsoft.azure.sdk.iot.provisioning.security:security-provider:2.0.1
 com.microsoft.azure.sdk.iot:iot-deps:2.0.0-preview-001
 com.microsoft.azure.sdk.iot:iot-service-client:2.1.6
@@ -2723,7 +2687,6 @@ com.microsoft.azure:azure-keyvault:1.2.6
 com.microsoft.azure:azure-mgmt-batch:1.41.4
 com.microsoft.azure:azure-mgmt-batchai:1.41.4
 com.microsoft.azure:azure-mgmt-cdn:1.41.4
-com.microsoft.azure:azure-mgmt-compute:1.41.4
 com.microsoft.azure:azure-mgmt-containerinstance:1.41.4
 com.microsoft.azure:azure-mgmt-containerregistry:1.41.4
 com.microsoft.azure:azure-mgmt-containerservice:1.41.4
@@ -2735,14 +2698,12 @@ com.microsoft.azure:azure-mgmt-keyvault:1.41.4
 com.microsoft.azure:azure-mgmt-locks:1.41.4
 com.microsoft.azure:azure-mgmt-monitor:1.41.4
 com.microsoft.azure:azure-mgmt-msi:1.41.4
-com.microsoft.azure:azure-mgmt-network:1.41.4
 com.microsoft.azure:azure-mgmt-redis:1.41.4
 com.microsoft.azure:azure-mgmt-resources:1.41.4
 com.microsoft.azure:azure-mgmt-search:1.41.4
 com.microsoft.azure:azure-mgmt-servicebus:1.41.4
 com.microsoft.azure:azure-mgmt-sql:1.41.4
 com.microsoft.azure:azure-mgmt-storage:1.41.4
-com.microsoft.azure:azure-mgmt-trafficmanager:1.41.4
 com.microsoft.azure:azure-servicebus:3.6.7
 com.microsoft.azure:azure-storage:8.6.6
 com.microsoft.azure:azure:1.41.4
@@ -2925,8 +2886,6 @@ com.okta.authn.sdk:okta-authn-sdk-api:2.0.10
 com.okta.jwt:okta-jwt-verifier:0.1.0
 com.olegpy:meow-mtl-core_sjs1_2.13:0.4.1
 com.omertron:themoviedbapi:4.3
-com.oneapm.agent.android:rewriter:5.5.6.1
-com.ontotext.graphdb:graphdb-runtime:10.2.1
 com.opayweb:java-sdk-core:1.0.1-RELEASE
 com.opdar.gulosity:spring:0.1
 com.opencredo:concursus-spring:0.6
@@ -2954,10 +2913,6 @@ com.oracle.database.xml:xmlparserv2:23.2.0.0
 com.oracle.oci.sdk:oci-java-sdk-appmgmtcontrol:3.16.0
 com.oracle.oci.sdk:oci-java-sdk-osubbillingschedule:3.16.0
 com.oracle.ojdbc:dms:19.3.0.0
-com.oracle.ojdbc:ojdbc10:19.3.0.0
-com.oracle.ojdbc:ojdbc10dms:19.3.0.0
-com.oracle.ojdbc:ojdbc8:19.3.0.0
-com.oracle.ojdbc:ojdbc8dms:19.3.0.0
 com.oracle.ojdbc:ons:19.3.0.0
 com.oracle.ojdbc:oraclepki:19.3.0.0
 com.oracle.ojdbc:orai18n:19.3.0.0
@@ -3094,7 +3049,6 @@ com.redhat.lightblue.ldap:lightblue-ldap-hystrix:1.9.0
 com.relayrides:pushy-dropwizard-metrics-listener:0.8.1
 com.remondis.limbus:limbus-jsse:3.1.0
 com.reprezen.genflow:genflow-api:1.4.2
-com.reprezen.genflow:swagger-ui:1.4.2
 com.resare.jresolver:jresolver:0.3.1
 com.restfb:restfb:2023.6.0
 com.revinate:henicea:1.1.2
@@ -3108,7 +3062,6 @@ com.ridgid.oss:com.ridgid.oss.restwebservices.doclet:2.159
 com.rklaehn:abc-extras_sjs0.6_2.11:0.3.0
 com.rms.miu:slick-cats_2.11:0.6
 com.rogiel.httpchannel:httpchannel-channelcopy:1.0.0
-com.rojoma:rojoma-json-v3_2.10:3.15.0
 com.rometools:rome-modules:2.1.0
 com.rometools:rome-utils:2.1.0
 com.rometools:rome:2.1.0
@@ -3128,13 +3081,11 @@ com.safelayer.test.rap:server:1.0.3
 com.salesforce.mce:kineticpulse_2.13:0.2.0
 com.salesforce.mce:telepathy_2.13:1.5.0
 com.salesforce.servicelibs:grpc-contrib:0.8.1
-com.salesforce.servicelibs:jprotoc:1.2.2
 com.salesforce.storm:dynamic-spout:0.8.0
 com.samskivert:jmustache:1.15
 com.samuelbirocchi:paypal-stc-sdk-java:1.0
 com.sandinh:ammonite-sshd_2.12.3:1.0.1-sh
 com.sandinh:couchbase-scala-macro_0.22:1.1.0-31a6602
-com.sandinh:elastic4s-http_2.12:6.1.8
 com.sandinh:scalafix-reflect_2.12.11:0.9.15.1
 com.sandinh:scalafix-reflect_2.13.2:0.9.15.2
 com.sap.cloud.db.jdbc:ngdbc:2.16.14
@@ -3155,7 +3106,6 @@ com.scientiamobile.wurflmicroservice:wurfl-microservice-scala:2.1.0
 com.scireum:sirius-nlp-plugin:5.6.8.1
 com.scleradb:sclera-plugin-webdisplay_2.13:4.0
 com.scloudic:jsuite-weixin-mp:1.0.0
-com.scmspain.karyon:karyon2-kafka:0.1.3
 com.scylladb:scylla-driver-core:3.11.2.4
 com.sdchang:leg:0.0.3
 com.sdl.dxa.modules:dxa-module-smarttarget-web8:1.8.0
@@ -3213,7 +3163,6 @@ com.societegenerale.ci-droid.tasks-consumer:ci-droid-tasks-consumer-github-adapt
 com.societegenerale.github-crawler:github-crawler-starter:2.2.0
 com.socrata:soda-publisher-scala_2.12:2.2.0
 com.socrata:soda-scala_2.9.0:1.0.0
-com.soento.cms:soento-cms-system:1.0.0-RELEASE
 com.softwaremill.common:id-generator_2.12:1.4.0
 com.softwaremill.diffx:diffx-scalatest-must_2.12:0.8.1
 com.softwaremill.diffx:diffx-scalatest-must_3:0.8.1
@@ -3246,7 +3195,6 @@ com.softwaremill.sttp.tapir:tapir-client_sjs1_2.12:1.5.0
 com.softwaremill.sttp.tapir:tapir-datadog-metrics_2.13:1.5.0
 com.softwaremill.sttp.tapir:tapir-http4s-server_2.13:1.5.0
 com.softwaremill.sttp.tapir:tapir-json-circe_sjs1_3:1.5.0
-com.softwaremill.sttp.tapir:tapir-tests_native0.4_3:1.5.0
 com.softwaremill.sttp.tapir:tapir-zio-http-server_2.12:1.5.0
 com.softwaremill.sttp.tapir:tapir-zio-http-server_3:1.5.0
 com.softwaremill.sttp:async-http-client-backend-monix_2.12:1.7.2
@@ -3399,7 +3347,6 @@ com.tasktop:wdpapi:0.0.6
 com.tcdng.jacklyn:jacklyn-audit:2.0.1
 com.tdunning:json:1.8
 com.tdunning:t-digest:3.3
-com.tecacet:jmetric:0.1.3-SNAPHSOT
 com.technophobia.substeps:webdriver-substeps:1.1.3
 com.telenav.kivakit:kivakit-application:1.17.1
 com.telenav.kivakit:kivakit-web-jetty:1.17.1
@@ -3475,7 +3422,6 @@ com.tngtech.archunit:archunit-junit5-api:1.0.1
 com.tngtech.archunit:archunit-junit5-engine-api:1.0.1
 com.tngtech.archunit:archunit-junit5-engine:1.0.1
 com.tngtech.archunit:archunit-junit5:1.0.1
-com.tngtech.archunit:archunit:1.0.1
 com.tngtech.java:config-builder:1.8.0
 com.tomekgrobel.mnemonic:mnemonic_2.11:0.1
 com.tomtom.jsystemd:jsystemd-core:1.0.3.2
@@ -3487,7 +3433,6 @@ com.trigyn:gridutils:1.5.0
 com.trueaccord.lenses:lenses_2.12:0.4.12
 com.trueaccord.scalapb:protobuf-runtime-scala_2.10:0.1.18
 com.trueaccord.scalapb:protoc-bridge_2.10:0.2.7
-com.trueaccord.scalapb:scalapb-runtime_2.12:0.6.7
 com.truedei.swagger.plugin:camel-swagger-core:0.0.2
 com.truthbean.debbie:debbie-tomcat:0.0.1-RELEASE
 com.truthbean.logger:log4j2:0.0.1-RELEASE
@@ -3509,7 +3454,6 @@ com.twitter:chill-java:0.10.0
 com.twitter:chill_2.11:0.10.0
 com.twitter:chill_2.12:0.10.0
 com.twitter:finagle-base-http_2.11:21.2.0
-com.twitter:finagle-core_2.11:21.2.0
 com.twitter:finagle-exp_2.11:21.2.0
 com.twitter:finagle-http-compat_2.12:6.41.0
 com.twitter:finagle-http2_2.11:21.2.0
@@ -3581,7 +3525,6 @@ com.twosigma.webtau:webtau-java-runner:1.20
 com.twosigma.webtau:webtau-utils:1.20
 com.twosixlabs.dart.auth:arrango-tenants_2.12:3.1.14
 com.typesafe.akka:akka-actor-typed_2.12:2.8.2
-com.typesafe.akka:akka-actor_2.12:2.8.2
 com.typesafe.akka:akka-channels-experimental_2.10:2.3-M2
 com.typesafe.akka:akka-cluster-metrics_2.12.0-M4:2.4.9
 com.typesafe.akka:akka-cluster-sharding-typed_2.11:2.5.21
@@ -3591,8 +3534,6 @@ com.typesafe.akka:akka-contrib_2.10:2.3.16
 com.typesafe.akka:akka-coordination_2.12:2.8.2
 com.typesafe.akka:akka-dataflow_2.11:2.3.16
 com.typesafe.akka:akka-discovery_2.13.0-RC3:2.5.23
-com.typesafe.akka:akka-http-core_2.12:10.5.2
-com.typesafe.akka:akka-http-core_3:10.5.2
 com.typesafe.akka:akka-http-spray-json_2.12:10.5.2
 com.typesafe.akka:akka-http2-support_2.12:10.5.2
 com.typesafe.akka:akka-http2-support_2.13.0-M5:10.1.8
@@ -3612,8 +3553,6 @@ com.typesafe.akka:akka-slf4j_2.11:2.5.32
 com.typesafe.akka:akka-slf4j_2.12:2.8.2
 com.typesafe.akka:akka-stream-kafka-testkit_2.12:4.0.2
 com.typesafe.akka:akka-stream-testkit_2.13.0-M3:2.5.17
-com.typesafe.akka:akka-stream_2.11:2.5.32
-com.typesafe.akka:akka-stream_2.12:2.8.2
 com.typesafe.akka:akka-testkit_2.10.0-RC1:2.1.0-RC1
 com.typesafe.conductr:play25-conductr-lib-common_2.11:2.2.0
 com.typesafe.genjavadoc:genjavadoc-plugin_2.12.0-M1:0.10
@@ -3637,7 +3576,6 @@ com.typesafe.play:play-ws-standalone-json_2.11:2.0.8
 com.typesafe.play:play-ws-standalone-xml_2.11:2.0.8
 com.typesafe.play:play-ws-standalone_2.11:2.0.8
 com.typesafe.play:play-ws_2.11:2.7.9
-com.typesafe.play:play_2.11:2.7.9
 com.typesafe.play:routes-compiler_2.12:2.8.19
 com.typesafe.play:routes-compiler_2.13.0-RC2:2.8.0-M1
 com.typesafe.play:twirl-api_2.11:1.4.2
@@ -3647,17 +3585,12 @@ com.typesafe.sbt:sbt-interface:0.13.15
 com.typesafe.scala-logging:scala-logging_2.11:3.9.5
 com.typesafe.scala-logging:scala-logging_2.12:3.9.5
 com.typesafe.scala-logging:scala-logging_2.13:3.9.5
-com.typesafe.slick:slick-testkit_2.10:3.1.1
-com.typesafe.slick:slick_2.10:2.0.3
-com.typesafe.slick:slick_2.11:3.3.3
 com.typesafe.zinc:zinc:0.3.8.1
 com.typesafe:config:1.4.2
-com.typesafe:slick_2.10.0-M6:0.10.0
 com.typesafe:ssl-config-core_2.11:0.6.1
 com.typesafe:ssl-config-core_2.12:0.6.1
 com.uber.autodispose:autodispose-lifecycle-jdk8:1.2.0
 com.uber.crumb:crumb-compiler:0.0.1
-com.uber.hoodie:hoodie-hadoop-mr-bundle:0.4.4
 com.uber.motif:motif:0.0.14
 com.uber:infer-plugin:0.7.3
 com.ubirch:ubirch-kafka-envelope:1.0.2
@@ -3693,7 +3626,6 @@ com.vividsolutions:jts-app:1.14.0
 com.vividsolutions:jts:1.13
 com.vladmihalcea.flexy-pool:flexy-druid:2.2.3
 com.vladsch.flexmark:flexmark-all:0.64.8
-com.vladsch.flexmark:flexmark-docx-converter:0.40.14
 com.vladsch.flexmark:flexmark-ext-abbreviation:0.64.8
 com.vladsch.flexmark:flexmark-ext-admonition:0.64.8
 com.vladsch.flexmark:flexmark-ext-anchorlink:0.64.8
@@ -3903,7 +3835,6 @@ de.codecentric:spring-boot-admin-client:3.0.4
 de.codecentric:spring-boot-admin-server-cloud:3.0.4
 de.codecentric:spring-boot-admin-server-ui-hystrix:1.5.7
 de.codecentric:spring-boot-admin-server-ui-turbine:1.5.7
-de.codecentric:spring-boot-admin-server-ui:3.0.4
 de.codecentric:spring-boot-admin-server:3.0.4
 de.codecentric:spring-boot-admin-starter-client:3.0.4
 de.codecentric:spring-boot-admin-starter-server:3.0.4
@@ -3965,7 +3896,6 @@ dnsjava:dnsjava:3.5.2
 doxia:doxia-sink-api:1.0-alpha-5
 edu.hm.hafner:codingstyle:3.17.0
 edu.hm.hafner:echarts-build-trends:4.4.0
-edu.ucar:cdm:4.5.5
 edu.ucar:grib:8.0.29
 edu.ucar:httpservices:4.5.5
 edu.ucar:netcdf4:4.5.5
@@ -3981,9 +3911,7 @@ fish.payara.extras:payara-embedded-all:6.2023.5
 fr.bmartel:pcapngdecoder:1.2
 gnu.getopt:java-getopt:1.0.13
 gov.nist.math:jama:1.0.3
-guru.nidi.com.eclipsesource.j2v8:j2v8_linux_x86_64:4.6.0
 guru.nidi.com.eclipsesource.j2v8:j2v8_win32_x86:4.6.0
-guru.nidi.com.eclipsesource.j2v8:j2v8_win32_x86_64:4.6.0
 guru.nidi.com.kitfox:svgSalamander:1.1.3
 guru.nidi:graphviz-java-all-j2v8:0.18.1
 guru.nidi:graphviz-java:0.18.1
@@ -4095,7 +4023,6 @@ io.cdap.cdap:cdap-spark-python:6.9.0
 io.cdap.wrangler:wrangler-api:4.9.0
 io.choerodon:choerodon-starter-boot:0.11.0.RELEASE
 io.choerodon:choerodon-starter-statemachine:0.9.0.RELEASE
-io.chris-kipp:mill-giter8_mill0.11.0-M10_2.13:0.2.5
 io.chrisdavenport:cats-effect-time_3:0.2.0
 io.chrisdavenport:circuit-http4s-server_sjs1_2.13:0.5.1
 io.chrisdavenport:condemned_sjs1_3:0.0.2
@@ -4445,14 +4372,12 @@ io.github.henryssondaniel.teacup.report:mysql:1.0.4
 io.github.heykb:mybatis-sqlhelper-spring-boot-autoconfigure:3.0.0.SR1
 io.github.heyvital:cs-server:0.0.1-RELEASE
 io.github.hlfsousa:ncml-io:0.1.0
-io.github.hq112415:embedded-redis-cluster:1.1.0
 io.github.huangjie0515:common-tools:2.2.1-RELEASE
 io.github.hyfsy:hot-refresh-core:1.2.5
 io.github.iltotore:iron-circe_native0.4_3:2.1.0
 io.github.immort-zyliu:zy-template-excel-spring-boot-autoconfigure:1.0.0
 io.github.immort-zyliu:zy-template-excel-spring-boot-starter:1.0.0
 io.github.in-toto:in-toto:0.2
-io.github.interestinglab.waterdrop:waterdrop-apis:2.0.2
 io.github.irevive:neotypes-enumeratum_2.13:0.17.0-ce3
 io.github.irevive:neotypes-zio-stream_2.13:0.16.0-M1
 io.github.isky123:oss-spring-boot-starter:1.0.0
@@ -4553,7 +4478,6 @@ io.github.percontmx.cfdi:cfdi-v3_2:1.1
 io.github.pityka:lamp-data_2.12:0.0.32
 io.github.pityka:lamp-data_2.13:0.0.32
 io.github.pityka:nspl-canvas-js_sjs0.6_2.12:0.0.20
-io.github.pityka:nspl-core_2.11:0.0.7
 io.github.pityka:nspl-saddle_2.11:0.0.7
 io.github.pityka:saddle-jsoniter_sjs1_2.12:3.3.0
 io.github.pityka:tasks-ecoll_2.12:2.0.0-M18
@@ -4590,7 +4514,6 @@ io.github.rmuhamedgaliev:SystemInformation:0.0.0.2
 io.github.runedata:cache-content:1.0.1
 io.github.rysefoxx:Hologram:1.0.0
 io.github.s3s3l:yggdrasil-bean:3.6.1-RELEASE
-io.github.sagifogel:proptics-core_sjs1_2.13:0.3.2
 io.github.sakulk:serval-core_native0.4_3:0.5.0
 io.github.samburi:root:1.0.8
 io.github.sasiperi:alexav2-spring-boot-starter:1.0.2
@@ -4604,7 +4527,6 @@ io.github.shapley-value-java:shapley-value-core:0.0.1
 io.github.shitsurei:simple-bg-cli:1.1.1-RELEASE
 io.github.shogowada:scala-json-rpc-json-serializer_2.11:0.3.1
 io.github.shubhamjha99:aem-connector.core:1.0.3
-io.github.soc:scala-java-time_sjs0.6_2.11:2.0.0-M5
 io.github.solf:testng-error-notifier:1.0.1
 io.github.springstudent:dubbo-swagger:0.0.2
 io.github.stanch:zipper_2.12:0.5.2
@@ -4640,7 +4562,6 @@ io.github.vigoo:zio-aws-cognitoidentityprovider_2.13:4.17.280.4
 io.github.vigoo:zio-aws-datasync_2.13:4.17.280.4
 io.github.vigoo:zio-aws-dax_2.13:4.17.280.4
 io.github.vigoo:zio-aws-evidently_2.13:4.17.280.4
-io.github.vigoo:zio-aws-fsx_2.13:4.17.280.4
 io.github.vigoo:zio-aws-kms_2.13:4.17.280.4
 io.github.vigoo:zio-aws-m2_2.12:4.17.280.4
 io.github.vigoo:zio-aws-nimble_2.13:4.17.280.4
@@ -4712,7 +4633,6 @@ io.higgs:msg.boson:1.1.1
 io.higherkindness:droste-core_2.11:0.6.0
 io.higherkindness:mu-rpc-internal-monix_2.13:0.21.3
 io.higherkindness:mu-rpc-prometheus-server_2.12:0.17.0
-io.horizen:zendoo-sc-cryptolib:0.3.0
 io.imast:core:1.0.0
 io.imast:work4j-controller:0.0.1.RC2
 io.imunity.furms:furms-site-api:4.2.7
@@ -4818,8 +4738,6 @@ io.mantisrx:mantis-network:2.0.37
 io.mantisrx:mantis-publish-netty-guice:1.3.26
 io.mantisrx:mantis-remote-observable:2.0.37
 io.mantisrx:mantis-runtime:2.0.37
-io.mantisrx:mql-jvm:3.4.0
-io.mavsdk:mavsdk:0.6.0
 io.megl:zio-elasticsearch-async-search_sjs1_2.13:2.0.0
 io.megl:zio-elasticsearch-logstash_sjs1_2.12:2.0.0
 io.megl:zio-elasticsearch-orm_2.13:2.0.0
@@ -4845,7 +4763,6 @@ io.micrometer:micrometer-registry-kairos:1.11.0
 io.micrometer:micrometer-registry-new-relic:1.11.0
 io.micrometer:micrometer-registry-prometheus:1.11.0
 io.micrometer:micrometer-registry-signalfx:1.11.0
-io.micrometer:micrometer-registry-statsd:1.11.0
 io.micrometer:micrometer-registry-wavefront:1.11.0
 io.micronaut.configuration:rabbitmq:1.0.0.RC2
 io.micronaut.data:micronaut-data-hibernate-jpa:1.0.2
@@ -5010,7 +4927,6 @@ io.projectreactor.netty:reactor-netty:1.1.7
 io.projectreactor:reactor-core:3.5.6
 io.projectreactor:reactor-scala-extensions_2.12:0.8.0
 io.projectreactor:reactor-test:3.5.6
-io.projectreactor:reactor-tools:3.5.6
 io.prometheus:simpleclient:0.16.0
 io.prometheus:simpleclient_common:0.16.0
 io.prometheus:simpleclient_httpserver:0.16.0
@@ -5236,7 +5152,6 @@ io.swagger:swagger-parser:2.0.0-rc1
 io.swagger:swagger-servlet:1.6.11
 io.swave:core_2.11:0.5-M1
 io.swaydb:data_2.13:0.16.1
-io.syndesis.connector:connector-fhir:1.13.2
 io.syndesis.connector:connector-salesforce-delete:1.3.0-20180307
 io.syndesis.integration-runtime:model:1.2.9
 io.syndesis.integration-runtime:runtime:1.2.9
@@ -5310,7 +5225,6 @@ io.vertx:vertx-web-common:4.4.2
 io.vertx:vertx-web:4.4.2
 io.vilt.minium:minium-script-rhinojs:2.5.0
 io.virtdata:project-annotations:2.11.18
-io.virtdata:virtdata-lib-realdata:2.12.09
 io.vlingo.xoom:xoom-wire:1.7.5
 io.vlingo:vlingo-lattice-exchange-camel:1.7.5
 io.vlingo:vlingo-xoom-server:1.3.0
@@ -5321,7 +5235,6 @@ io.wcm.maven:io.wcm.maven.global-build-tools:28
 io.webcrank:webcrank-password_2.9.3:0.3
 io.xiaper:xiaper-spring-boot-upload:2.1.6.RELEASE
 io.xream.internal-util:internal-util:1.2.0.RELEASE
-io.xream.reliable:reliable-entity:1.2.0.RELEASE
 io.xream.x7:x7-redis-integration:2.18.0.RELEASE
 io.xream.x7:x7-sqli:2.18.0.RELEASE
 io.youi:youi-example_sjs1_2.13:0.13.15
@@ -5448,7 +5361,6 @@ mx4j:mx4j:3.0.2
 net.arnx:jsonic:1.3.10
 net.arnx:nashorn-promise:0.1.3
 net.bytebuddy:byte-buddy-agent:1.14.5
-net.bytebuddy:byte-buddy:1.14.5
 net.cnri:cnri-servlet-container-lib:3.1.0
 net.cnri:cnri-servlet-container:3.1.0
 net.cnri:cnriutil:2.0
@@ -5460,7 +5372,6 @@ net.databinder:unfiltered-util_2.11:0.9.0-beta1
 net.databinder:unfiltered_2.11:0.9.0-beta1
 net.hydromatic:aggdesigner-algorithm:6.0
 net.hydromatic:eigenbase-properties:1.1.6
-net.hydromatic:foodmart-queries:0.4.1
 net.i2p.crypto:eddsa:0.3.0
 net.iharder:base64:2.3.9
 net.java.dev.jets3t:jets3t:0.9.4
@@ -5510,7 +5421,6 @@ net.sf.ezmorph:ezmorph:1.0.6
 net.sf.flexjson:flexjson:3.3
 net.sf.jopt-simple:jopt-simple:6.0-alpha-3
 net.sf.jpam:jpam:1.1
-net.sf.jt400:jt400:20.0.0-alpha-2
 net.sf.jxls:jxls-core:1.0.6
 net.sf.kosmosfs:kfs:0.3
 net.sf.kxml:kxml2:2.2.2
@@ -5536,7 +5446,6 @@ net.sourceforge.jexcelapi:jxl:2.6.12
 net.sourceforge.jmatio:jmatio:1.0
 net.sourceforge.jtds:jtds:1.3.1
 net.sourceforge.nekohtml:nekohtml:1.9.22
-net.sourceforge.saxon:saxon:9.1.0.8
 net.spy:spymemcached:2.12.3
 net.thisptr:jackson-jq:1.0.0-preview.20230409
 nl.basjes.collections:prefixmap:2.0
@@ -5599,7 +5508,6 @@ org.antlr:stringtemplate:4.0.2
 org.anyline:anyline-cache-redis:8.6.3-20230603
 org.anyline:anyline-encrypt:8.6.3-20230603
 org.anyline:anyline-jdbc-tdengine:8.5.7-20220928
-org.aoju:bus-core:8.0.0
 org.aoju:bus-spring:8.0.0
 org.apache-extras.beanshell:bsh:2.0b6
 org.apache.abdera:abdera-examples:1.1.3
@@ -5674,7 +5582,6 @@ org.apache.ant:ant-junit:1.10.13
 org.apache.ant:ant-launcher:1.10.13
 org.apache.ant:ant-nodeps:1.8.1
 org.apache.ant:ant:1.10.13
-org.apache.archiva.redback:redback-rest-api:2.6.2
 org.apache.aries.blueprint:org.apache.aries.blueprint.api:1.0.1
 org.apache.aries.blueprint:org.apache.aries.blueprint.core:1.10.3
 org.apache.aries.cdi:org.apache.aries.cdi.extension.spi:1.1.5
@@ -5708,7 +5615,6 @@ org.apache.beam:beam-runners-core-java:2.48.0
 org.apache.beam:beam-runners-direct-java:2.48.0
 org.apache.beam:beam-runners-google-cloud-dataflow-java:2.48.0
 org.apache.beam:beam-runners-java-fn-execution:2.48.0
-org.apache.beam:beam-sdks-java-core:2.48.0
 org.apache.beam:beam-sdks-java-expansion-service:2.48.0
 org.apache.beam:beam-sdks-java-extensions-arrow:2.48.0
 org.apache.beam:beam-sdks-java-extensions-avro:2.48.0
@@ -5716,10 +5622,8 @@ org.apache.beam:beam-sdks-java-extensions-google-cloud-platform-core:2.48.0
 org.apache.beam:beam-sdks-java-extensions-protobuf:2.48.0
 org.apache.beam:beam-sdks-java-fn-execution:2.48.0
 org.apache.beam:beam-sdks-java-io-amazon-web-services2:2.24.0
-org.apache.beam:beam-sdks-java-io-google-cloud-platform:2.48.0
 org.apache.beam:beam-sdks-java-io-kafka:2.48.0
 org.apache.beam:beam-vendor-bytebuddy-1_10_8:0.1
-org.apache.beam:beam-vendor-bytebuddy-1_11_0:0.1
 org.apache.beam:beam-vendor-guava-26_0-jre:0.1
 org.apache.beam:beam-vendor-sdks-java-extensions-protobuf:2.28.0
 org.apache.bigtop.itest:flume-smoke:1.5.0
@@ -5871,7 +5775,6 @@ org.apache.commons:commons-exec:1.3
 org.apache.commons:commons-imaging:1.0-alpha3
 org.apache.commons:commons-jcs-jcache-openjpa:2.2.1
 org.apache.commons:commons-jexl:2.1.1
-org.apache.commons:commons-lang3:3.12.0
 org.apache.commons:commons-math3:3.6.1
 org.apache.commons:commons-math:2.2
 org.apache.commons:commons-pool2:2.11.1
@@ -6024,7 +5927,6 @@ org.apache.dubbo:dubbo-security:3.2.2
 org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible:3.2.2
 org.apache.dubbo:dubbo-spring-boot-autoconfigure:3.2.2
 org.apache.dubbo:dubbo-spring-boot-starter:3.2.2
-org.apache.dubbo:dubbo:3.2.2
 org.apache.edgent.android:edgent-apps-iot:1.2.0
 org.apache.edgent.android:edgent-utils-metrics:1.2.0
 org.apache.felix:maven-bundle-plugin:5.1.9
@@ -6052,7 +5954,6 @@ org.apache.flink:flink-optimizer:1.17.1
 org.apache.flink:flink-optimizer_2.11:1.13.6
 org.apache.flink:flink-queryable-state-client-java:1.17.1
 org.apache.flink:flink-rpc-core:1.17.1
-org.apache.flink:flink-runtime-web_2.11:1.14.6
 org.apache.flink:flink-runtime:1.17.1
 org.apache.flink:flink-scala_2.11:1.14.6
 org.apache.flink:flink-shaded-asm-7:7.1-14.0
@@ -6121,12 +6022,8 @@ org.apache.hadoop:hadoop-aws:3.3.5
 org.apache.hadoop:hadoop-azure:3.3.5
 org.apache.hadoop:hadoop-client-runtime:3.3.5
 org.apache.hadoop:hadoop-client:3.3.5
-org.apache.hadoop:hadoop-common:3.3.5
-org.apache.hadoop:hadoop-core:1.2.1
 org.apache.hadoop:hadoop-distcp:3.3.5
 org.apache.hadoop:hadoop-hdds-common:1.1.0
-org.apache.hadoop:hadoop-hdfs-client:3.3.5
-org.apache.hadoop:hadoop-hdfs:3.3.5
 org.apache.hadoop:hadoop-mapreduce-client-app:3.3.5
 org.apache.hadoop:hadoop-mapreduce-client-common:3.3.5
 org.apache.hadoop:hadoop-mapreduce-client-core:3.3.5
@@ -6136,7 +6033,6 @@ org.apache.hadoop:hadoop-mapreduce-client-shuffle:3.3.5
 org.apache.hadoop:hadoop-minicluster:3.3.5
 org.apache.hadoop:hadoop-minikdc:3.3.5
 org.apache.hadoop:hadoop-registry:3.3.5
-org.apache.hadoop:hadoop-yarn-api:3.3.5
 org.apache.hadoop:hadoop-yarn-client:3.3.5
 org.apache.hadoop:hadoop-yarn-common:3.3.5
 org.apache.hadoop:hadoop-yarn-registry:3.3.5
@@ -6154,8 +6050,6 @@ org.apache.hama:hama-commons:0.7.0
 org.apache.hbase.thirdparty:hbase-shaded-gson:4.1.4
 org.apache.hbase.thirdparty:hbase-shaded-jersey:4.1.4
 org.apache.hbase.thirdparty:hbase-shaded-jetty:4.1.4
-org.apache.hbase.thirdparty:hbase-shaded-miscellaneous:4.1.4
-org.apache.hbase.thirdparty:hbase-shaded-netty:4.1.4
 org.apache.hbase.thirdparty:hbase-shaded-protobuf:4.1.4
 org.apache.hbase.thirdparty:hbase-unsafe:4.1.4
 org.apache.hbase:hbase-annotations:3.0.0-alpha-3
@@ -6171,9 +6065,7 @@ org.apache.hbase:hbase-metrics-api:3.0.0-alpha-3
 org.apache.hbase:hbase-metrics:3.0.0-alpha-3
 org.apache.hbase:hbase-prefix-tree:2.0.0-alpha4
 org.apache.hbase:hbase-procedure:3.0.0-alpha-3
-org.apache.hbase:hbase-protocol:2.5.4-hadoop3
 org.apache.hbase:hbase-replication:3.0.0-alpha-3
-org.apache.hbase:hbase-server:3.0.0-alpha-3
 org.apache.hbase:hbase-shaded-client-project:3.0.0-alpha-3
 org.apache.hbase:hbase-testing-util:3.0.0-alpha-3
 org.apache.hbase:hbase-zookeeper:3.0.0-alpha-3
@@ -6335,7 +6227,6 @@ org.apache.jclouds:jclouds-core:2.5.0
 org.apache.jclouds:jclouds-loadbalancer:2.5.0
 org.apache.jclouds:jclouds-resources:2.5.0
 org.apache.jclouds:jclouds-scriptbuilder:2.5.0
-org.apache.jena:jena-arq:4.8.0
 org.apache.jena:jena-base:4.8.0
 org.apache.jena:jena-core:4.8.0
 org.apache.jena:jena-iri:4.8.0
@@ -6359,7 +6250,6 @@ org.apache.kafka:kafka-storage-api:3.4.0
 org.apache.kafka:kafka-storage:3.4.0
 org.apache.kafka:kafka-streams-test-utils:3.4.0
 org.apache.kafka:kafka-streams:3.4.0
-org.apache.kafka:kafka_2.10:0.10.2.2
 org.apache.kafka:kafka_2.12:3.4.0
 org.apache.karaf.decanter.appender:org.apache.karaf.decanter.appender.utils:2.10.0
 org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.boot:4.4.3
@@ -6413,10 +6303,8 @@ org.apache.logging.log4j:log4j-slf4j2-impl:2.20.0
 org.apache.logging.log4j:log4j-to-slf4j:2.20.0
 org.apache.logging.log4j:log4j-web:2.20.0
 org.apache.lucene:lucene-analysis-common:9.6.0
-org.apache.lucene:lucene-analysis-kuromoji:9.6.0
 org.apache.lucene:lucene-analysis-phonetic:9.6.0
 org.apache.lucene:lucene-analyzers-common:8.11.2
-org.apache.lucene:lucene-analyzers-kuromoji:8.11.2
 org.apache.lucene:lucene-analyzers-phonetic:8.11.2
 org.apache.lucene:lucene-analyzers:3.6.2
 org.apache.lucene:lucene-backward-codecs:9.6.0
@@ -6599,7 +6487,6 @@ org.apache.parquet:parquet-encoding:1.13.1
 org.apache.parquet:parquet-format-structures:1.13.1
 org.apache.parquet:parquet-format:2.9.0
 org.apache.parquet:parquet-generator:1.13.1
-org.apache.parquet:parquet-hadoop-bundle:1.13.1
 org.apache.parquet:parquet-hadoop:1.13.1
 org.apache.parquet:parquet-jackson:1.13.1
 org.apache.pdfbox:fontbox:3.0.0-RC1
@@ -6610,10 +6497,8 @@ org.apache.pdfbox:pdfbox-tools:3.0.0-RC1
 org.apache.pdfbox:pdfbox:3.0.0-RC1
 org.apache.pdfbox:xmpbox:3.0.0-RC1
 org.apache.phoenix:phoenix-hbase-compat-1.5.0:4.16.1
-org.apache.pig:pig:0.17.0
 org.apache.pivot:pivot-core:2.0.5
 org.apache.plc4x:plc4j-apache-edgent:0.8.0
-org.apache.poi:poi-ooxml-lite:5.2.3
 org.apache.poi:poi-ooxml:5.2.3
 org.apache.poi:poi-scratchpad:5.2.3
 org.apache.poi:poi:5.2.3
@@ -6709,8 +6594,6 @@ org.apache.skywalking:telemetry-so11y:7.0.0
 org.apache.slider:slider-core:0.92.0-incubating
 org.apache.sling:org.apache.sling.fsresource:2.2.0
 org.apache.sling:org.apache.sling.javax.activation:0.3.0
-org.apache.sling:org.apache.sling.xss:2.3.6
-org.apache.solr:solr-core:9.2.1
 org.apache.solr:solr-s3-repository:8.11.2
 org.apache.solr:solr-solrj-streaming:9.2.1
 org.apache.solr:solr-solrj-zookeeper:9.2.1
@@ -6722,12 +6605,10 @@ org.apache.spark:spark-kvstore_2.12:3.4.0
 org.apache.spark:spark-launcher_2.11:2.4.8
 org.apache.spark:spark-launcher_2.12:3.4.0
 org.apache.spark:spark-network-common_2.11:2.4.8
-org.apache.spark:spark-network-common_2.12:3.4.0
 org.apache.spark:spark-network-shuffle_2.11:2.4.8
 org.apache.spark:spark-network-shuffle_2.12:3.4.0
 org.apache.spark:spark-sketch_2.11:2.4.8
 org.apache.spark:spark-sketch_2.12:3.4.0
-org.apache.spark:spark-streaming-flume-assembly_2.12:2.4.8
 org.apache.spark:spark-tags_2.11:2.4.8
 org.apache.spark:spark-tags_2.12:3.4.0
 org.apache.spark:spark-unsafe_2.11:2.4.8
@@ -6819,7 +6700,6 @@ org.apache.tomcat:tomcat-annotations-api:11.0.0-M6
 org.apache.tomcat:tomcat-api:11.0.0-M6
 org.apache.tomcat:tomcat-catalina:11.0.0-M6
 org.apache.tomcat:tomcat-coyote:11.0.0-M6
-org.apache.tomcat:tomcat-el-api:11.0.0-M6
 org.apache.tomcat:tomcat-jaspic-api:11.0.0-M6
 org.apache.tomcat:tomcat-jdbc:11.0.0-M6
 org.apache.tomcat:tomcat-jni:11.0.0-M6
@@ -6866,7 +6746,6 @@ org.apache.xbean:xbean-blueprint:4.23
 org.apache.xbean:xbean-reflect:4.23
 org.apache.xbean:xbean-spring:4.23
 org.apache.xmlbeans:xmlbeans:5.1.1
-org.apache.xmlgraphics:batik-all:1.16
 org.apache.xmlgraphics:batik-anim:1.16
 org.apache.xmlgraphics:batik-awt-util:1.16
 org.apache.xmlgraphics:batik-bridge:1.16
@@ -6929,7 +6808,6 @@ org.arquillian.ape:arquillian-ape-rest-postman:2.0.0-alpha.7
 org.arquillian.container:arquillian-droidium-container-impl:1.0.0.Alpha1
 org.arquillian.cube:arquillian-cube-openshift-resources-standalone-ftest:1.13.0
 org.asciidoctor:asciidoctorj-api:2.5.9
-org.asciidoctor:asciidoctorj-pdf:2.3.7
 org.asciidoctor:asciidoctorj:2.5.9
 org.aspectj:aspectjrt:1.9.19
 org.aspectj:aspectjweaver:1.9.19
@@ -7021,9 +6899,7 @@ org.bouncycastle:bcmail-jdk18on:1.73
 org.bouncycastle:bcpg-jdk15on:1.70
 org.bouncycastle:bcpkix-jdk15on:1.70
 org.bouncycastle:bcpkix-jdk18on:1.73
-org.bouncycastle:bcprov-ext-jdk15on:1.70
 org.bouncycastle:bcprov-jdk15:1.46
-org.bouncycastle:bcprov-jdk15on:1.70
 org.bouncycastle:bcprov-jdk16:1.46
 org.bouncycastle:bcprov-jdk18on:1.73
 org.bouncycastle:bctls-jdk15on:1.70
@@ -7094,7 +6970,6 @@ org.camunda.commons:camunda-commons-utils:1.12.0
 org.camunda.community.cloud.migration:camunda-platform-to-cloud-adapter:0.0.3
 org.carewebframework:org.carewebframework.security.spring.mock:5.0.0-RC5
 org.carewebframework:org.carewebframework.smart.ui:4.0.0
-org.carewebframework:org.carewebframework.web.angular:1.0.5
 org.carrot2:morfologik-fsa:2.1.9
 org.carrot2:morfologik-polish:2.1.9
 org.carrot2:morfologik-stemming:2.1.9
@@ -7123,7 +6998,6 @@ org.clapper:classutil_2.12.0-RC1:1.0.13
 org.clapper:grizzled-scala_2.13.0-RC2:4.9.2
 org.clapper:grizzled-scala_2.8.2:1.0.13
 org.clapper:grizzled-slf4j_2.11:1.3.4
-org.clojure:clojure:1.12.0-alpha3
 org.clojure:core.specs.alpha:0.2.62
 org.clojure:core.typed.lib.clojure:0.8.0-alpha2
 org.clojure:data.xml:0.2.0-alpha2
@@ -7365,7 +7239,6 @@ org.duracloud.mill:common-dup:4.1.1
 org.e-hoffman.crypto:CryptoProperties:1.0.0
 org.easybatch:easybatch-flatfile:5.3.0
 org.easybatch:easybatch-jdbc:5.3.0
-org.easymock:easymock:5.1.0
 org.easymock:easymockclassextension:3.2
 org.easyrules:easyrules-spring-boot-starter:2.5.0
 org.echocat.jomon.maven.plugins:common:1.6.3
@@ -7403,7 +7276,6 @@ org.eclipse.dirigible:dirigible-ide-help:3.1.1
 org.eclipse.dirigible:dirigible-ide-ui-file-manager:7.2.0
 org.eclipse.dirigible:dirigible-sap-all:6.3.27
 org.eclipse.ditto:ditto-services-concierge-config:2.0.0-M2
-org.eclipse.ditto:ditto-services-utils-conditional-headers:2.0.0-M2
 org.eclipse.ecf.protocol:msn:0.3.1-v20070627-1030
 org.eclipse.emf.validation.ui:ide:1.0.100-v200706071520
 org.eclipse.emf:codegen-ecore:2.1.0
@@ -7428,7 +7300,6 @@ org.eclipse.hono:hono-service-base-jdbc:2.1.1
 org.eclipse.hudson:hudson-test-utils:3.3.3
 org.eclipse.jdt.compiler:tool:1.0.0-v_771
 org.eclipse.jdt.core.compiler:ecj:4.6.1
-org.eclipse.jdt:core:3.3.0-v_771
 org.eclipse.jdt:debug:3.3.0-v20070530a
 org.eclipse.jdt:ecj:3.33.0
 org.eclipse.jdt:launching:3.3.0-v20070510
@@ -7635,7 +7506,6 @@ org.firebirdsql.fbjava:fbjava:1.0.0-beta-1
 org.firebirdsql.jdbc:jaybird:5.0.1.java11
 org.fiware.kiara:kiaragen:0.2.5
 org.flockdata:fd-client:0.98.8
-org.flowable:flowable-bpmn-converter:7.0.0.M1
 org.flowable:flowable-bpmn-layout:7.0.0.M1
 org.flowable:flowable-bpmn-model:7.0.0.M1
 org.flowable:flowable-engine-common-api:7.0.0.M1
@@ -7704,7 +7574,6 @@ org.getshaka:native-converter_sjs1_3:0.5.0
 org.gfccollective:gfc-aws-kinesis-akka_2.13:1.0.0
 org.gjgr.pig:pig-chivalrous-model:0.0.1.20200202G
 org.glassfish.corba:glassfish-corba-omgapi:4.2.4
-org.glassfish.external.trinidad:trinidad-impl:2.0.2-glassfish-2
 org.glassfish.fighterfish:test.app10.bean:1.0.0
 org.glassfish.fighterfish:test.util:1.1.7
 org.glassfish.grizzly:connection-pool:4.0.0
@@ -7740,7 +7609,6 @@ org.glassfish.jaxb:jaxb-xjc:4.0.2
 org.glassfish.jaxb:txwc2:4.0.2
 org.glassfish.jaxb:xsom:4.0.2
 org.glassfish.jersey.bundles.repackaged:jersey-guava:2.26-b03
-org.glassfish.jersey.bundles:jaxrs-ri:3.1.2
 org.glassfish.jersey.connectors:jersey-apache-connector:3.1.2
 org.glassfish.jersey.connectors:jersey-apache5-connector:3.1.2
 org.glassfish.jersey.connectors:jersey-netty-connector:3.1.2
@@ -7794,7 +7662,6 @@ org.glassfish.tyrus:tyrus-core:2.1.3
 org.glassfish.tyrus:tyrus-spi:2.1.3
 org.glassfish.tyrus:tyrus-websocket-core:1.2.1
 org.glassfish.tyrus:websocket-spi:1.0-b06
-org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1
 org.glassfish.web:javax.servlet.jsp:2.3.4
 org.glassfish.web:jstl-impl:1.2
 org.glassfish:jakarta.el:5.0.0-M1
@@ -7933,7 +7800,6 @@ org.im4java:im4java:1.4.0
 org.immutables:bom:2.9.0
 org.immutables:check:0.16
 org.immutables:generator:2.9.3
-org.immutables:value-annotations:2.9.3
 org.incode.module.docrendering:incode-module-docrendering-freemarker-dom:1.15.1.1
 org.incode.module.docrendering:incode-module-docrendering-stringinterpolator-dom:1.15.1.1
 org.infinispan.protostream:protostream-types:14.0.0.CR2
@@ -7958,8 +7824,6 @@ org.infinispan:infinispan-cloud:10.0.0.Beta5
 org.infinispan:infinispan-clustered-counter:15.0.0.Dev01
 org.infinispan:infinispan-clustered-lock:15.0.0.Dev01
 org.infinispan:infinispan-commons-jakarta:14.0.9.Final
-org.infinispan:infinispan-core-jakarta:14.0.9.Final
-org.infinispan:infinispan-core:15.0.0.Dev01
 org.infinispan:infinispan-directory-provider:11.0.0.Dev03
 org.infinispan:infinispan-hibernate-cache-commons:15.0.0.Dev01
 org.infinispan:infinispan-hibernate-cache-spi:15.0.0.Dev01
@@ -8145,7 +8009,6 @@ org.jboss.weld.module:weld-jsf:5.1.0.Final
 org.jboss.weld.probe:weld-probe-core:5.0.1.Final
 org.jboss.weld.se:weld-se-core:5.1.0.Final
 org.jboss.weld.se:weld-se-shaded:5.1.0.Final
-org.jboss.weld.servlet:weld-servlet:3.0.0.Alpha1
 org.jboss.weld:weld-api:5.0.SP3
 org.jboss.weld:weld-core-impl:5.1.0.Final
 org.jboss.weld:weld-core:3.0.0.Alpha6
@@ -8205,7 +8068,6 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0-Beta
 org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0-Beta
 org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.71
 org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.71
-org.jetbrains.kotlin:kotlin-stdlib-js:1.9.0-Beta
 org.jetbrains.kotlin:kotlin-stdlib:1.9.0-Beta
 org.jetbrains.kotlin:kotlin-swing:0.12.1218
 org.jetbrains.kotlin:kotlin-test-annotations-common:1.9.0-Beta
@@ -8295,7 +8157,6 @@ org.jooby:jooby-rxjava-jdbc:1.6.9
 org.jooq:jool:0.9.15
 org.jooq:jooq-codegen:3.18.4
 org.jooq:jooq-meta:3.18.4
-org.jooq:jooq:3.18.4
 org.jooq:joor-java-8:0.9.14
 org.jooq:joor:0.9.14
 org.jostraca:jostraca:0.4.1
@@ -8486,7 +8347,6 @@ org.locationtech.geomesa:geomesa-utils_2.12:4.0.1
 org.locationtech.jts.io:jts-io-common:1.19.0
 org.locationtech.jts:jts-core:1.19.0
 org.locationtech.proj4j:proj4j:1.3.0
-org.locationtech.rasterframes:rasterframes_2.11:0.8.0-RC3
 org.locationtech.spatial4j:spatial4j:0.8
 org.log4mongo:log4mongo-java:0.9.0
 org.logging4s:logging4s-ce-2_3:0.1.5
@@ -8562,7 +8422,6 @@ org.mockito:mockito-inline:5.2.0
 org.mockito:mockito-junit-jupiter:5.3.1
 org.mod4j.org.apache.commons:cli:1.0.0
 org.mod4j.org.eclipse.ui.workbench:texteditor:3.5.0
-org.modelmapper:modelmapper:3.1.1
 org.modeshape:modeshape-common:5.4.1.Final
 org.modeshape:modeshape-jcr:5.4.1.Final
 org.modeshape:modeshape-sequencer-images:5.4.1.Final
@@ -8705,7 +8564,6 @@ org.openapitools:openapi-generator-core:6.6.0
 org.opencb.cellbase:cellbase-mongodb:4.0.0
 org.opencds.cqf.cql:evaluator.cql2elm:1.4.2
 org.opendaylight.aaa:features-aaa-shiro:0.5.4-Carbon
-org.opendaylight.bier:bierapp-module:0.3.4
 org.opendaylight.faas:features-faas:1.2.4-Carbon
 org.opendaylight.groupbasedpolicy:features-groupbasedpolicy:0.4.4-Boron-SR4
 org.opendaylight.infrautils:metrics-it:2.0.16
@@ -8941,7 +8799,6 @@ org.projectodd.shrinkwrap.descriptors:shrinkwrap-descriptors-test:2.0.0-alpha-7a
 org.projectreactor:reactor-core:1.1.6.RELEASE
 org.provatesting:prova-engine:1.1.0
 org.psjava:psjava:0.1.19
-org.psywerx.hairyfotr:linter_2.12.0-SNAPSHOT:0.1.15
 org.pure4s:uuid4s-circe_2.11:0.1.2
 org.pushing-pixels:radiance-meteor:3.5.1
 org.qbicc:qbicc-machine-tool-clang:0.5.0
@@ -9018,10 +8875,7 @@ org.scala-js:scalajs-java-logging_sjs1.0.0-M2_2.10:0.1.3
 org.scala-js:scalajs-java-time_sjs1.0.0-M5_2.13.0-M4:0.2.5
 org.scala-js:scalajs-junit-test-plugin_2.13.0-M3:0.6.26
 org.scala-js:scalajs-junit-test-plugin_2.13.3:1.13.1
-org.scala-js:scalajs-library_2.13.0-RC2:1.0.0-M8
 org.scala-js:scalajs-linker-interface_sjs1.0-RC1_2.11:1.0.0-RC1
-org.scala-js:scalajs-linker_sjs1.0.0-M4_2.11:1.0.0-M4
-org.scala-js:scalajs-linker_sjs1.0.0-M8_2.11:1.0.0-M8
 org.scala-js:scalajs-tools_2.12.0-M4:0.6.9
 org.scala-js:scalajs-tools_sjs0.6_2.13.0-M1:0.6.17
 org.scala-lang.modules:scala-async_2.12:1.0.1
@@ -9041,7 +8895,6 @@ org.scala-lang.modules:scala-xml_2.12:2.1.0
 org.scala-lang.platform:scalajson_sjs0.6_2.10:1.0.0-M3
 org.scala-lang:scala-actors-migration_2.11.0-RC3:1.1.0
 org.scala-lang:scala-actors-migration_2.11:1.1.0
-org.scala-lang:scala-library:2.13.11
 org.scala-lang:scala3-library_3:3.3.2-RC1-bin-20230602-57c2b66-NIGHTLY
 org.scala-lang:scaladoc_3.0.0-RC1:3.0.0-RC1
 org.scala-lang:scalap:2.13.11
@@ -9062,7 +8915,6 @@ org.scala-sbt:launcher-interface:1.4.2
 org.scala-sbt:sbinary_2.12:0.5.2
 org.scala-sbt:scripted-sbt_2.12:1.9.0
 org.scala-sbt:util-control_2.12:1.9.0
-org.scala-sbt:util-interface:2.0.0-alpha7
 org.scala-sbt:util-logging_2.12:1.9.0
 org.scala-sbt:util-logic_2.10:0.1.0-M10
 org.scala-sbt:util-position_2.12:1.9.0
@@ -9104,18 +8956,15 @@ org.scalameta:mtags_3.1.1:0.11.10
 org.scalameta:mtags_3.1.3-RC1-bin-20220205-8e2fab7-NIGHTLY:0.11.8
 org.scalameta:mtags_3.2.0-RC1-bin-20220423-17ec9a7-NIGHTLY:0.11.5
 org.scalameta:mtags_3.2.0-RC1-bin-20220613-6635929-NIGHTLY:0.11.6
-org.scalameta:mtags_3.2.2-RC1-bin-20220920-b1b1dfd-NIGHTLY:0.11.8
 org.scalameta:mtags_3.3.0-RC1-bin-20221118-bf83641-NIGHTLY:0.11.9
 org.scalameta:mtags_3.3.0-RC1-bin-20221128-8fba321-NIGHTLY:0.11.9
 org.scalameta:mtags_3.3.1-RC1-bin-20230221-847eccc-NIGHTLY:0.11.10
-org.scalameta:mtags_3.3.1-RC1-bin-20230222-ba481c6-NIGHTLY:0.11.10
 org.scalameta:mtags_3.3.1-RC1-bin-20230501-1aa3372-NIGHTLY:0.11.12
 org.scalameta:munit-scalacheck_native0.4_2.11:0.7.21
 org.scalameta:munit_sjs1.0-RC1_2.11:0.3.1
 org.scalameta:parsers_2.12:4.7.8
 org.scalameta:scalafmt-sysops_2.12:3.7.4
 org.scalameta:scalameta_2.12:4.7.8
-org.scalameta:trees_2.12:4.7.8
 org.scalamock:scalamock-core-tests_sjs0.6_2.12:3.6.0
 org.scalamock:scalamock-core_2.9.1:2.4
 org.scalamock:scalamock_2.12:5.2.0
@@ -9166,7 +9015,6 @@ org.scalatest:scalatest_2.12:3.3.0-SNAP4
 org.scalatestplus.play:scalatestplus-play_2.11:4.0.3
 org.scalatestplus.play:scalatestplus-play_3:6.0.0-M4
 org.scalatra.scalate:scalate-camel_2.11:1.9.6
-org.scalatra.scalate:scalate-core_2.11:1.9.8
 org.scalatra.scalate:scalate-jrebel_2.13.0-RC3:1.9.4-RC1
 org.scalatra.scalate:scalate-util_2.11:1.9.8
 org.scalatra:scalatra-atmosphere_2.9.3:2.2.2
@@ -9182,10 +9030,8 @@ org.scalatra:scalatra-test:2.2.0
 org.scalatra:scalatra_2.11:2.7.1
 org.scalatra:scalatra_2.9.1:2.1.0.M1
 org.scalaz:scalaz-concurrent_2.10.0-M6:7.0.0-M2
-org.scalaz:scalaz-core_2.10.0-M7:6.0.4
 org.scalaz:scalaz-effect_sjs1.0-RC2_2.13:7.3.0-M32
 org.scalaz:scalaz-example_2.10.0-M6:7.0.0-M2
-org.scalaz:scalaz-iteratee_3:7.4.0-M13
 org.scalaz:scalaz-parsers_2.12:0.0.3
 org.scalaz:scalaz-zio-interop-cats_sjs0.6_2.12:0.6.3
 org.scalaz:scalaz-zio-interop-shared_2.13.0-M5:0.6.3
@@ -9315,7 +9161,6 @@ org.spark-project.spark:unused:1.0.0
 org.spartanz:parserz_2.12:0.0.1
 org.specs2:scalaz-iterv_2.10.0-RC3:7.0.0-M2
 org.specs2:scalaz-scalacheck-binding_2.10.0:7.0.0
-org.specs2:specs2-core_sjs0.6_2.13.0-RC1:4.5.1
 org.specs2:specs2-core_sjs1_2.13:4.20.0
 org.specs2:specs2-form_2.11.0-M8:2.3.7
 org.specs2:specs2-gwt_2.11.0-RC1:2.3.10-scalaz-7.1.0-M6
@@ -9488,7 +9333,6 @@ org.springframework.session:spring-session-jdbc:3.1.0
 org.springframework.shell:spring-shell-starter-jna:3.1.0
 org.springframework.shell:spring-shell:1.2.0.RELEASE
 org.springframework.statemachine:spring-statemachine-data-redis:3.2.0
-org.springframework.webflow:spring-js-resources:2.5.1.RELEASE
 org.springframework.ws:spring-ws-core:4.0.4
 org.springframework.ws:spring-xml:4.0.4
 org.springframework.xd:spring-xd-batch:1.0.4.RELEASE
@@ -9515,14 +9359,12 @@ org.springframework:spring-webflux:6.0.9
 org.springframework:spring-webmvc:6.0.9
 org.springframework:spring-websocket:6.0.9
 org.sql2o:sql2o:1.6.0
-org.squeryl:squeryl_2.9.1:0.9.5-1
 org.st-js:code-analysis:3.3.2.2
 org.stagemonitor:stagemonitor-core:0.82.0
 org.statefulj.framework:statefulj-framework-binders-jersey:3.0
 org.statefulj:statefulj-fsm:3.0
 org.streampipes:streampipes-messaging-jms:0.60.0
 org.structr:structr-neo4j-driver:2.2.9-2.0.1
-org.structr:structr-ui:2.0.1
 org.subethamail:subethasmtp-smtp:1.2
 org.subethamail:subethasmtp-wiser:1.2
 org.subethamail:subethasmtp:3.1.7
@@ -9625,7 +9467,6 @@ org.tpolecat:sourcepos_native0.4_2.12:1.1.0
 org.tpolecat:typename_3.0.0-M1:0.1.0
 org.tranql:tranql-connector-mysql-common:1.3
 org.travelforge:product-search-model:0.5
-org.treblereel.gwt.yaml.mapper:processor:0.1
 org.trellisldp:trellis-osgi:0.7.3
 org.truenewx.tnxjeex.payment:tnxjeex-payment-web:2.6.2
 org.ttgoss.js:data-validation_sjs1_2.13:0.1.0-M7
@@ -9652,7 +9493,6 @@ org.twister2:fault-tolerance-api-java:0.8.0
 org.twister2:local-runner-java:0.8.0
 org.twister2:master-java:0.8.0
 org.twister2:network-api-java:0.8.0
-org.twister2:proto-java:0.8.0
 org.twister2:proto-utils-java:0.8.0
 org.twister2:resource-api-java:0.8.0
 org.twister2:resource-scheduler-java:0.8.0
@@ -9675,7 +9515,6 @@ org.typelevel:cats-effect-testing-minitest_3.0.0-RC3:1.1.0
 org.typelevel:cats-effect-testing-utest_sjs1_3:1.5.0
 org.typelevel:cats-free_3.0.0-M3:2.4.2
 org.typelevel:cats-js_sjs1_2.13:2.7.0
-org.typelevel:cats-kernel_sjs1_3.0.0-M1:2.3.0
 org.typelevel:cats-macros_sjs1_2.13:2.1.1
 org.typelevel:cats-mtl-laws_native0.4_3:1.3.1
 org.typelevel:cats-mtl_sjs1_2.12:1.3.1
@@ -9701,7 +9540,6 @@ org.typelevel:jawn-json4s_0.27:1.0.2
 org.typelevel:jawn-parser_2.13.0-M5:0.14.0
 org.typelevel:jawn-util_0.25:1.0.0
 org.typelevel:kind-projector_2.13.0-RC3:0.10.2
-org.typelevel:kittens_native0.4_2.12:3.0.0
 org.typelevel:literally_3.0.0-RC2:1.0-2-fbbccd2
 org.typelevel:log4cats-testing_native0.4_2.13:2.6.0
 org.typelevel:macro-compat_2.12.0-M5:1.1.1
@@ -9803,7 +9641,6 @@ org.webjars.bower:github-com-sockjs-sockjs-client:1.3.0
 org.webjars.bower:github-com-vaadin-vaadin-development-mode-detector:2.0.0
 org.webjars.bower:github-com-webcomponents-shadycss:1.9.1
 org.webjars.bower:howler.js:2.2.1
-org.webjars.bower:html.sortable:0.3.1
 org.webjars.bower:iron-dropdown:2.1.0
 org.webjars.bower:jquery-i18next:0.0.9
 org.webjars.bower:jquery-icheck:1.0.2
@@ -9846,7 +9683,6 @@ org.webjars.bowergithub.elesdoar:ui-leaflet-layers:0.1.3
 org.webjars.bowergithub.esri:terraformer:1.0.9
 org.webjars.bowergithub.fezvrasta:popper.js:1.16.0
 org.webjars.bowergithub.gatanaso:multiselect-combo-box:1.1.0
-org.webjars.bowergithub.getsentry:raven-js-bower:3.27.2
 org.webjars.bowergithub.handsontable:handsontable:6.2.2
 org.webjars.bowergithub.hgoebl:mobile-detect.js:1.4.4
 org.webjars.bowergithub.htmlelements:smart-accordion:1.1.0
@@ -9966,7 +9802,6 @@ org.webjars.npm:floating-ui__vue:1.0.0
 org.webjars.npm:floatthead:2.0.3
 org.webjars.npm:formsy-react-components:0.10.1
 org.webjars.npm:fortawesome__react-fontawesome:0.1.1
-org.webjars.npm:framework7:3.5.2
 org.webjars.npm:fs-write-stream-atomic:1.0.10
 org.webjars.npm:funfix-core:7.0.1
 org.webjars.npm:gip-recia__menu-cantine:0.1.7
@@ -10029,7 +9864,6 @@ org.webjars.npm:lokijs:1.3.16
 org.webjars.npm:lumino__widgets:2.0.0-alpha.6
 org.webjars.npm:mapbox-to-css-font:2.4.2
 org.webjars.npm:mapbox__jsonlint-lines-primitives:2.0.2
-org.webjars.npm:minecraft-data:2.112.0
 org.webjars.npm:mini-create-react-context:0.3.2
 org.webjars.npm:mkdirp:2.1.3
 org.webjars.npm:modularscale-sass:2.1.1
@@ -10131,7 +9965,6 @@ org.webjars.npm:viz.js-graphviz-java:2.1.3
 org.webjars.npm:vow:0.4.8
 org.webjars.npm:vue-chat-scroll:1.3.5
 org.webjars.npm:vue-resource:1.5.1
-org.webjars.npm:wearefrank__ladybug:0.0.36
 org.webjars.npm:web3-core-method:3.0.0-rc.5
 org.webjars.npm:webcomponents__template:1.4.0
 org.webjars.npm:wide-align:1.1.5
@@ -10262,7 +10095,6 @@ org.wildfly.security:wildfly-elytron-x500-cert:2.2.0.Final
 org.wildfly.security:wildfly-elytron-x500-deprecated:2.2.0.Final
 org.wildfly.security:wildfly-elytron-x500-principal:2.2.0.Final
 org.wildfly.security:wildfly-elytron-x500:2.2.0.Final
-org.wildfly.security:wildfly-elytron:2.2.0.Final
 org.wildfly.swarm.testsuite:testsuite-msc:2018.5.0
 org.wildfly.swarm:arquillian-daemon:2018.5.0
 org.wildfly.swarm:camel-full-api:1.0.3
@@ -10389,7 +10221,6 @@ software.amazon.awssdk:cloudwatch:2.20.78
 software.amazon.awssdk:crt-core:2.20.78
 software.amazon.awssdk:dynamodb:2.20.78
 software.amazon.awssdk:endpoints-spi:2.20.78
-software.amazon.awssdk:glue:2.20.78
 software.amazon.awssdk:http-client-spi:2.20.77
 software.amazon.awssdk:json-utils:2.20.78
 software.amazon.awssdk:kinesis:2.20.78
@@ -10397,7 +10228,6 @@ software.amazon.awssdk:metrics-spi:2.20.77
 software.amazon.awssdk:netty-nio-client:2.20.78
 software.amazon.awssdk:profiles:2.20.78
 software.amazon.awssdk:protocol-core:2.20.78
-software.amazon.awssdk:rds:2.20.78
 software.amazon.awssdk:regions:2.20.78
 software.amazon.awssdk:s3:2.20.77
 software.amazon.awssdk:sdk-core:2.20.78
@@ -10427,7 +10257,6 @@ tech.cassandre.trading.bot:cassandre-trading-bot-spring-boot-starter-test:6.0.1
 tech.cassandre.trading.bot:cassandre-trading-bot-spring-boot-starter:6.0.1
 tomcat:jasper-compiler:5.5.15
 tomcat:jasper-runtime:5.5.15
-ua.net.nlp:morfologik-ukrainian-search:4.9.1
 uk.org.lidalia:lidalia-lang:1.0.0-jdk6
 uk.org.lidalia:lidalia-slf4j-ext:1.0.0-jdk6
 uk.org.lidalia:slf4j-test:1.2.0
@@ -10449,7 +10278,6 @@ ws.unfiltered:unfiltered-util_2.11:0.10.4
 ws.unfiltered:unfiltered_2.11:0.10.4
 wsdl4j:wsdl4j:1.6.3
 xalan:serializer:2.7.3
-xalan:xalan:2.7.3
 xerces:xercesImpl:2.12.2
 xerces:xmlParserAPIs:2.6.2
 xml-apis:xml-apis-ext:1.3.04
